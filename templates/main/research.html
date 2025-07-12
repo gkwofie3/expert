@@ -1,0 +1,79 @@
+{% include 'main/head.html' %}
+<style>
+    .dynamic-line {
+        border: none;
+        height: 3px; /* Adjust thickness */
+        background-color: rgb(255, 0, 76); /* Bootstrap primary color */
+    }
+    .section{
+        background-image: url('/static/main/img/pubbg.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+</style>
+<body>
+
+    <!-- PAGE LOADING
+    ================================================== -->
+    <div id="preloader"></div>
+
+    <!-- MAIN WRAPPER
+    ================================================== -->
+    <div class="main-wrapper " style="width: 100%;">
+
+        <!-- HEADER
+        ================================================== -->
+        {% include 'main/header.html' %}
+        <!-- PEOPLE
+         =============================================== -->
+        <div class="section px-3" style="width: 100%;display: block;">
+            <div class="container p-3 ">
+                <div class="row  bg-white px-4">
+                    <div class="col-12 double-underline">
+                        <br>
+                        <div class="w-100" style="border-bottom: 1px rgb(121, 121, 121) solid;">                        
+                            <h2 style="margin: 0px;  padding: 0px;margin-top: 4px !important;" class="text-primary ">E<sup>x</sup>PERT  </h2>
+                            <div  style="font-size: larger;font-weight: bolder; margin: 2px;border-bottom: 1px rgb(120, 120, 120) solid;">Exponential Energy Power Electronics Research Team - Researches</div>
+                        </div>
+                        <br>
+                        
+                    </div>
+                    {%if researches %}
+                        {% for research in researches %}
+                        <div class="row my-2">
+                            <div class="col-sm-4">
+                                <img src="/media/{{research.pic}}" style="width: 100%;height: auto;" alt="">
+                            </div>
+                            <div class="col-sm-8">
+                                    
+                                <h4 style="border-bottom: 1px solid rgb(112, 112, 112);"><a class="text-primary"  href="/research/{{research.id}}/">{{research.title}}</a></h4> <br>
+                                <ul>
+                                    {% for i in research.bullet_points%}
+                                    <li>{{i}}</li>
+                                    {%endfor%}
+                                </ul>
+                                        
+                            </div>
+                        </div>
+                        {%endfor%}
+                    {%else%}
+                    <div>No researches added Yet. kindly add Research via the admin page</div>
+                    {%endif%}
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- FOOTER
+        ================================================== -->
+        {% include 'main/footer.html' %}
+
+    </div>
+
+{% include 'main/end.html' %}

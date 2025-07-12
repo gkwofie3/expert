@@ -1,0 +1,497 @@
+{% include 'main/head.html' %}
+<style>
+    
+</style><style>
+                                                .video-container {
+                                                    position: relative;
+                                                    display: inline-block;
+                                                }
+                                            
+                                                .video-controls {
+                                                    transition: opacity 0.5s ease;
+                                                    opacity: 0;
+                                                    visibility: hidden;
+                                                }
+                                            
+                                                .video-container:hover .video-controls,
+                                                .video-container:focus-within .video-controls {
+                                                    opacity: 1;
+                                                    visibility: visible;
+                                                }
+                                            </style>
+<body>
+
+    <!-- PAGE LOADING
+    ================================================== -->
+    <div id="preloader"></div>
+
+    <!-- MAIN WRAPPER
+    ================================================== -->
+    <div class="main-wrapper " style="width: 100%;">
+
+        <!-- HEADER
+        ================================================== -->
+        {% include 'main/header.html' %}
+        
+       
+            
+        <div class="blogs px-3" style="width: 100%;display: block;">
+
+            <div class="container">
+                <div class="row">
+                    <!--  start blog left-->
+                    <div class="col-lg-9 pe-lg-1-9 mb-1-9 mb-lg-0">
+                        <div class="posts">
+                            <!--  start post-->
+                            <div class="post">
+                                <div class="post-img">
+                                    <img src="/media/{{thisnews.featured_image_1}}" alt="...">
+                                </div>
+                                <div class="content">
+                                    <div class="blog-list-simple-text">
+                                        <div class="post-title">
+                                            <h5>{{thisnews.title}}</h5>
+                                        </div>
+                                        <ul class="meta ps-0">
+                                            <li>
+                                                <a href="#!">
+                                                    <i aria-hidden="true" class="fa fa-user"></i> {{thisnews.author}}
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#!">
+                                                    <i aria-hidden="true" class="fa fa-folder-open"></i> {{thisnews.category}}
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#!">
+                                                    <i aria-hidden="true" class="fas fa-calendar-alt"></i> {{thisnews.publication_date}}</script>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#!">
+                                                    <i aria-hidden="true" class="fa fa-tags"></i> blog
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#!">
+                                                    <i aria-hidden="true" class="fa fa-comments"></i> {{thisnews.number_of_times_read}} Comments
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="post-cont">
+                                        <p>
+                                            {{thisnews.intro}}
+                                        </p>
+                                        <div class="row">
+                                            {% if thisnews.featured_image_2 %}
+                                            <div class="col-md-6">
+                                                <img src="/media/{{thisnews.featured_image_2}}" alt="...">
+                                            </div>
+                                           {% endif %}
+                                            {% if thisnews.featured_image_3 %}
+                                            <div class="col-md-6">
+                                                <img src="/media/{{thisnews.featured_image_3}}" alt="...">
+                                            </div>
+                                           {% endif %}
+                                        </div>
+                                        <p class="special">
+                                            {{thisnews.body}}
+                                        </p>
+                                        {%if thisnews.featured_video %}
+                                        <div class="row">
+                                            <!-- ----------------------video .................. -->
+                                            <div class="video-container position-relative">
+                                                <video id="videoPlayer" class="w-100 rounded shadow-lg" controls>
+                                                    <source src="/media/{{thisnews.featured_video}}" type="video/mp4">
+                                                    Your browser does not support the video tag.
+                                                </video>
+                                            </div>
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            <!-- ----------------------video .................. -->
+                                        </div>
+                                        {%endif%}
+                                        <p>{{thisnews.conclusion}}</p>
+                                    </div>
+                                    <div class="share-post">
+                                        <span>Share Post</span>
+                                        <ul class="ps-0">
+                                            <li>
+                                                <a href="https://www.facebook.com/sharer/sharer.php?u={{ request.build_absolute_uri }}" target="_blank">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://x.com/intent/post?url={{ request.build_absolute_uri }}&text={{ thisnews.title }}" target="_blank">
+                                                    <i class="fab fa-x-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.instagram.com/" target="_blank">
+                                                    <i class="fab fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.youtube.com/" target="_blank">
+                                                    <i class="fab fa-youtube"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ request.build_absolute_uri }}" target="_blank">
+                                                    <i class="fab fa-linkedin-in"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="mailto:?subject={{ thisnews.title }}&body={{ request.build_absolute_uri }}" target="_blank">
+                                                    <i class="fa fa-envelope"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://api.whatsapp.com/send?text={{ thisnews.title }} - {{ request.build_absolute_uri }}" target="_blank">
+                                                    <i class="fab fa-whatsapp"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>                                        
+                                </div>
+                            </div>
+                            <!--  start post-->
+
+                            <!--  start comment-->
+                            <div class="comments-area">
+                                <div class="line-title">
+                                    <h3>Comments</h3>
+                                </div>
+                                {%if comments %}
+                                {%for comment in comments%}
+                                <div class="comment-box">
+                                    <div class="author-thumb">
+                                        <img src="/media/users/profile_pics/12055105.jpg" alt="..." class="rounded-circle">
+                                    </div>
+                                    <div class="comment-info">
+                                        <h6><a href="#!">{{comment.name}}</a></h6>
+                                        <p>{{comment.message}}</p>
+                                        <div class="reply">
+                                            <a href="#!">
+                                                <i class="fa fa-reply" aria-hidden="true"></i> Reply
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                {%endfor%}
+                                {%endif%}
+                                
+                            </div>
+                            <!-- end comment-->
+
+                            <!--  start form-->
+                            <div class="comment-form">
+
+                                <div class="line-title">
+                                    <h3>Post a Comment</h3>
+                                </div>
+
+                                <form method="post" id="commentForm" class="needs-validation" novalidate>
+
+                                    <div class="row">
+                                        {% if messages %}
+                                    <div class="container mt-3">
+                                        {% for message in messages %}
+                                        <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+                                            {{ message }}
+                                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                        </div>
+                                        {% endfor %}
+                                    </div>
+                                    {% endif %}
+                                    {%csrf_token%}
+                                        <!-- Name Input -->
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="name" id="name" placeholder="Enter your full name (e.g., John, Doe)" required>
+                                                <div class="invalid-feedback">
+                                                    Name must be at least 7 characters and include a white space separating first and last name (e.g., John Doe).
+                                                </div>
+                                            </div>
+                                        </div>
+                                
+                                        <!-- Email Input -->
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" name="email" id="email" placeholder="Your email here" required>
+                                                <div class="invalid-feedback">
+                                                    Please enter a valid email address.
+                                                </div>
+                                            </div>
+                                        </div>
+                                
+                                        <!-- Message Input -->
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <textarea class="form-control" name="message" id="message" rows="3" placeholder="Tell us a few words" required></textarea>
+                                                <div class="invalid-feedback">
+                                                    Message must be at least 10 characters long.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                    <!-- Submit Button -->
+                                    <button type="submit" class="butn primary"><span>Send Message</span></button>
+                                
+                                </form>
+                                                       
+                                
+
+                            </div>
+                            <!--  end form-->
+                        </div>
+                    </div>
+                    <!--  end blog left-->
+
+                    <!--  start blog right-->
+                    <div class="col-lg-3">
+                        <div class="side-bar">
+                            <div class="widget">
+                                <form class="search-form w-sm-90 mx-auto mx-lg-0" action="#!" method="post" enctype="multipart/form-data" onclick="">
+
+                                    <div class="search-elements">
+
+                                        <div class="row">
+
+                                            <!-- Begin Text input element -->
+                                            <div class="col-md-12">
+                                                <div class="search-element">
+                                                    <div class="search-input">
+                                                        <input class="form-control" id="email" type="text" name="email" placeholder="Search Crizal..." />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Text input element -->
+
+                                            <!-- Begin Submit button -->
+                                            <div class="col-md-12">
+                                                <div class="search-submit-inner">
+                                                    <button class="btn btn-white text-primary m-0" type="submit"><i class="fas fa-search"></i></button>
+                                                </div>
+                                            </div>
+                                            <!-- End Submit button -->
+
+                                        </div>
+
+                                    </div>
+
+                                </form>
+                            </div>
+
+                            <div class="widget">
+                                <div class="widget-title">
+                                    <h6>Recent Posts</h6>
+                                </div>
+                                <ul class="list-unstyled">
+                                    {% for newsitem in news %}
+                                    <li><a href="/news/{{newsitem.id}}/">{{newsitem.title}}</a></li>
+                                    {%endfor%}
+                                    
+                                </ul>
+                            </div>
+
+                            <div class="widget">
+                                <div class="widget-title">
+                                    <h6>Recent Comments</h6>
+                                </div>
+                                <ul class="list-unstyled">
+                                    {% for comment in comment %}
+                                    <li><a href="#" id="dynamicLink">{{ comment.message }}</a></li>
+                                        <script>
+                                            document.addEventListener("DOMContentLoaded", function () {
+                                                const link = document.getElementById("dynamicLink");
+                                                link.href = window.location.href; // Set href to current URL
+                                            });
+                                        </script>
+                                    {%endfor%}
+                                </ul>
+                            </div>
+
+                            <div class="widget">
+                                <div class="widget-title">
+                                    <h6>Archives</h6>
+                                </div>
+                                <ul class="list-unstyled">
+                                    <li><a href="#!">January 2022</a></li>
+                                    <li><a href="#!">February 2022</a></li>
+                                    <li><a href="#!">March 2022</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="widget">
+                                <div class="widget-title">
+                                    <h6>Categories</h6>
+                                </div>
+                                <ul class="list-unstyled">
+                                    <li><a href="#!">Business - 45</a></li>
+                                    <li><a href="#!">Consultancy - 33</a></li>
+                                    <li><a href="#!">Finance - 23</a></li>
+                                    <li><a href="#!">Investment - 09</a></li>
+                                    <li><a href="#!">Development - 21</a></li>
+                                    <li><a href="#!">Professional - 12</a></li>
+                                    <li><a href="#!">Planning - 07</a></li>
+                                    <li><a href="#!">Saving - 15</a></li>
+                                    <li><a href="#!">Banking - 10</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="widget">
+                                <div class="widget-title">
+                                    <h6>Follow Us</h6>
+                                </div>
+                                <ul class="social-listing ps-0">
+                                    <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#!"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
+                                    <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--  end blog right-->
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- FOOTER
+        ================================================== -->
+        {% include 'main/footer.html' %}
+        <script>
+            const video = document.getElementById("videoPlayer");
+            const controls = document.getElementById("videoControls");
+            const playPauseBtn = document.getElementById("playPauseBtn");
+            const stopBtn = document.getElementById("stopBtn");
+            const fullscreenBtn = document.getElementById("fullscreenBtn");
+            const muteBtn = document.getElementById("muteBtn");
+            const progressBar = document.getElementById("progressBar");
+
+            let controlTimeout;
+
+            function showControls() {
+                controls.style.opacity = "1";
+                controls.style.visibility = "visible";
+                clearTimeout(controlTimeout);
+                controlTimeout = setTimeout(() => {
+                    controls.style.opacity = "0";
+                    controls.style.visibility = "hidden";
+                }, 5000);
+            }
+
+            video.addEventListener("mousemove", showControls);
+            video.addEventListener("touchstart", showControls);
+            video.addEventListener("mouseleave", () => {
+                controls.style.opacity = "0";
+                controls.style.visibility = "hidden";
+            });
+
+            playPauseBtn.addEventListener("click", () => {
+                if (video.paused || video.ended) {
+                    video.play();
+                    playPauseBtn.innerText = "Pause";
+                } else {
+                    video.pause();
+                    playPauseBtn.innerText = "Play";
+                }
+                showControls();
+            });
+
+            stopBtn.addEventListener("click", () => {
+                video.pause();
+                video.currentTime = 0;
+                playPauseBtn.innerText = "Play";
+                showControls();
+            });
+
+            fullscreenBtn.addEventListener("click", () => {
+                if (video.requestFullscreen) {
+                    video.requestFullscreen();
+                } else if (video.mozRequestFullScreen) {
+                    video.mozRequestFullScreen();
+                } else if (video.webkitRequestFullscreen) {
+                    video.webkitRequestFullscreen();
+                } else if (video.msRequestFullscreen) {
+                    video.msRequestFullscreen();
+                }
+                showControls();
+            });
+
+            muteBtn.addEventListener("click", () => {
+                video.muted = !video.muted;
+                muteBtn.innerText = video.muted ? "Unmute" : "Mute";
+                showControls();
+            });
+
+            video.addEventListener("timeupdate", () => {
+                const percentage = (video.currentTime / video.duration) * 100;
+                progressBar.style.width = percentage + "%";
+                showControls();
+            });
+        </script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const form = document.getElementById("commentForm");
+            
+                form.addEventListener("submit", function (event) {
+                    let isValid = true;
+                    
+                    // Name validation
+                    const nameInput = document.getElementById("name");
+                    const nameValue = nameInput.value.trim();
+                    if (nameValue.length < 5 || !nameValue.includes(" ")) {
+                        nameInput.classList.add("is-invalid");
+                        isValid = false;
+                    } else {
+                        nameInput.classList.remove("is-invalid");
+                    }
+            
+                    // Email validation
+                    const emailInput = document.getElementById("email");
+                    const emailValue = emailInput.value.trim();
+                    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Simple email regex
+                    if (!emailPattern.test(emailValue)) {
+                        emailInput.classList.add("is-invalid");
+                        isValid = false;
+                    } else {
+                        emailInput.classList.remove("is-invalid");
+                    }
+            
+                    // Message validation
+                    const messageInput = document.getElementById("message");
+                    if (messageInput.value.trim().length < 7) {
+                        messageInput.classList.add("is-invalid");
+                        isValid = false;
+                    } else {
+                        messageInput.classList.remove("is-invalid");
+                    }
+            
+                    // Prevent submission if validation fails
+                    if (!isValid) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                });
+            });
+            </script>
+    </div>
+
+{% include 'main/end.html' %}

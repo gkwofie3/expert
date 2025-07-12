@@ -1,0 +1,201 @@
+{% include 'main/head.html' %}
+
+    <body>
+
+        <!-- PAGE LOADING
+        ================================================== -->
+        <div id="preloader"></div>
+
+        <!-- MAIN WRAPPER
+        ================================================== -->
+        <div class="main-wrapper">
+
+            <!-- HEADER
+            ================================================== -->
+            {% include 'main/header.html' %}
+            <style>
+                /* Faint black overlay */
+                .slider-overlay {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.2); /* 5% opacity black */
+                    z-index: 1; /* Ensures overlay is on top of the image but below text */
+                }
+
+                /* Ensure the text layers are above the overlay */
+                .tp-caption {
+                    position: relative;
+                    z-index: 2;
+                }
+                /* homepage image */
+                .homepage-top-image .image-container {
+                        position: relative;
+                    }
+
+                    .homepage-top-image .image-container img {
+                        width: 100%; /* Ensures responsiveness */
+                        height: auto;
+                    }
+
+                    .homepage-top-image .overlay-text {
+                        position: absolute;
+                        bottom: 1cm; /* Adjust to your desired distance from the bottom */
+                        left: 50%;
+                        width: 97%;
+                        transform: translateX(-50%);
+                        background-color: rgba(0, 0, 0, 0.5); /* Optional background for better contrast */
+                        padding: 5px 10px;
+                        border-radius: 5px;
+                        font-size: 1.8rem; /* Adjust font size for responsiveness */
+                        transition: color 0.3s ease;
+                    }
+                    .homepage-top-image .overlay-text:hover {
+                        color: var(--bs-primary); /* Bootstrap's primary color */
+                    }
+
+                    /* carousel */
+                    .carousel-caption {
+                        position: absolute;
+                        bottom: 0%; /* Adjust as needed */
+                        left: 5%;
+                        right: 5%;
+                        text-align: center;
+                        background-color: rgba(0, 0, 0, 0.281);
+                    }
+
+                    .text-white {
+                        font-size: 1.5rem; /* Adjust as needed */
+                        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+                    }
+
+
+            </style>
+            <!--Mission statement with Pic-->
+            <section  class="" style=" margin-top:4px;  padding: 2px;">
+                <div class="row" style="padding-top: 4px;">
+                    <div class="col-md-6 position-relative homepage-top-image">
+                        {% for slider in sliders %}
+                        {% if slider.id == 2 %}
+                        <div class="image-container">
+                            <img src="/media/{{ slider.image }}" class="img-fluid">
+                            <div class="overlay-text text-white">{{slider.description}}</div>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                    
+                    <div class="col-md-6 d-flex align-items-center">
+                        <div class="container ">
+                            <div class="section-heading "><span>Welcome</span>
+                                <h2> MISSION  STATEMENT</h2>
+                                <p class=" " style="text-align: justify;">
+                                {{lab.mission}}
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <section class="" style="margin-top: 4px; padding: 2px;">
+                <div class="news-container">
+                    <div class="d-flex justify-content-center section-heading">
+                        <h2>Latest News</h2>
+                    </div>
+                    <div id="newsCarousel" class="carousel slide news-items" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            {% for new in news %}
+                            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                                <div class="news-item">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-6 mb-4 mb-lg-0 text-center text-lg-start">
+                                            <div class="box-shadow-large p-2">
+                                                <a href="/news/{{new.path}}/"><img src="/media/{{ new.image }}" alt="News Image" class="img-fluid"></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 P-2">
+                                            <div class="ps-lg-1-9">
+                                                <small class="text-muted">Date: {{ new.published_date }}</small>
+                                                <h3> <a href="/news/{{new.path}}/">{{ new.title }}</a> </h3>
+                                                <p>{{ new.content|truncatechars:750 }}</p>
+                                                <div class="d-flex justify-content-center"><a href="/news/{{new.path}}/" class=" btn btn-danger">Read more</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+
+                        <!-- Carousel controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SPonsors
+            ================================================== -->
+            <div class="section-clients">
+                <div class=" d-flex justify-content-center section-heading" style="margin-bottom: 0px;">
+                    <h2>Sponsors</h2>
+
+                </div>
+                <div class="container">
+                    <div class="row ">
+                        <div class=" d-flex flex-wrap" style="width: 100%;">
+                            {% for sponsor in sponsors %}
+                            <div class="d-flex align-items-center" style="width: 19%;">
+                                <div class="item d-flex  align-items-center p-2 px-3" title="{{sponsor.description}}" style="width: 100%;">
+                                    <img title="{{sponsor.description}}" class=" d-flex  align-items-center" alt="{{sponsor.description}}" style="width: 100%;" src="/media/{{sponsor.logo}}">
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="homepageCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
+                <div class="carousel-inner">
+                    {% for slider in sliders %}
+                    <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                        <!-- Background image -->
+                        <img src="/media/{{ slider.image }}" class="d-block w-100" alt="Slider {{ forloop.counter }}">
+                        <!-- Description text -->
+                        <div class="carousel-caption d-block text-bottom">
+                            <p class="text-white">{{ slider.description }}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            
+                <!-- Left and right controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#homepageCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#homepageCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            
+
+            <!-- FOOTER
+            ================================================== -->
+            {% include 'main/footer.html' %}
+
+        </div>
+
+    {% include 'main/end.html' %}

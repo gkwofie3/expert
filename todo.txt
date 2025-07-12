@@ -1,0 +1,10 @@
+1.add awards and career experience to users backend
+
+2.add show month or not to edu & professional 
+experience(add city and coutnry, bullets points),
+edu make city and coutnry optional
+3. add career experience
+EDU WE are using israels template
+professional experience ahmed 
+make about height flexible
+ 

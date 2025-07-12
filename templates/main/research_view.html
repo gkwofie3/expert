@@ -1,0 +1,56 @@
+{% include 'main/head.html' %}
+<style>
+    .dynamic-line {
+        border: none;
+        height: 3px; /* Adjust thickness */
+        background-color: rgb(255, 0, 76); /* Bootstrap primary color */
+    }
+    .section{
+        background-image: url('/static/main/img/pubbg.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+</style>
+<body>
+
+    <!-- PAGE LOADING
+    ================================================== -->
+    <div id="preloader"></div>
+
+    <!-- MAIN WRAPPER
+    ================================================== -->
+    <div class="main-wrapper " style="width: 100%;">
+
+        <!-- HEADER
+        ================================================== -->
+        {% include 'main/header.html' %}
+       
+        <div class="section px-3" style="width: 100%;display: block;">
+            <div class="container p-3 ">
+                <div class="row  bg-white px-4">
+                    <h4 class="text-primary">Welcome to</h4><br>
+                    <h3>{{research.title}}</h3>
+                    <p><img src="/media/{{research.pic}}" alt=""></p>
+                    <ul>
+                        {% for i in research.bullet_points%}
+                        <li>{{i}}</li>
+                        {%endfor%}
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- FOOTER
+        ================================================== -->
+        {% include 'main/footer.html' %}
+
+    </div>
+
+{% include 'main/end.html' %}

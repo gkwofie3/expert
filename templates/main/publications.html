@@ -1,0 +1,61 @@
+{% include 'main/head.html' %}
+
+<body>
+
+    <!-- PAGE LOADING
+    ================================================== -->
+    <div id="preloader"></div>
+
+    <!-- MAIN WRAPPER
+    ================================================== -->
+    <div class="main-wrapper " style="width: 100%;">
+
+        <!-- HEADER
+        ================================================== -->
+        {% include 'main/header.html' %}
+        <!-- PEOPLE
+         =============================================== -->
+        <div class="section px-3" style="width: 100%;display: block;">
+            <div class="container p-3 ">
+                <div class="row  bg-white px-4">
+                    <div class="col-12 double-underline">
+                        <div class="w-100" style="border-bottom: 1px rgb(121, 121, 121) solid;">                        
+                            <h2 style="margin: 0px;  padding: 0px;margin-top: 4px !important;" class="text-primary ">E<sup>x</sup>PERT </h2>
+                            <div  style="font-size: larger;font-weight: bolder; margin: 2px;border-bottom: 1px rgb(120, 120, 120) solid;">Exponential Energy Power Electronics Research Team -  Publications</div>
+                        </div>
+                        <br>
+                        <h5 class="text-primary" style="border-bottom: 1px rgb(113, 112, 112) solid; padding-bottom: 2px;">
+                            Journal Publications (Selected)
+                        </h5>
+                    </div>
+                    
+                    <div class="col-sm-12">
+                        {% if publications %}
+                            {% for year, publication in publications.items %}
+                                <h5 class="text-primary">{{ year }}</h5>
+                                <hr>
+                                <ul>
+                                    {% for pub in publication %}
+                                        <li style="list-style:square;" title="{{ pub.abstract }}">
+                                            {{ pub.title }} 
+                                            <a class="text-primary" href="{{ pub.link }}">Link</a>, <a class="text-primary"  href="{{ pub.pdf }}">Paper</a>
+                                        </li>
+                                        <br>
+                                    {% endfor %}
+                                </ul>
+                            {% endfor %}
+                        {% else %}
+                            <p>No Publications have been added yet!</p>
+                        {% endif %}
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER
+        ================================================== -->
+        {% include 'main/footer.html' %}
+
+    </div>
+
+{% include 'main/end.html' %}

@@ -1,0 +1,133 @@
+[  {
+    "model": "main.publication",
+    "pk": 5,
+    "fields": {
+        "title": "J. Doe, A. Smith, and B. Johnson, 'Deep Learning for Predictive Load Forecasting in Smart Grids with Renewable Energy Sources,' IEEE Transactions on Sustainable Energy, 2022.",
+        "publication_date": "2022-03-10",
+        "abstract": "This paper presents a deep learning-based predictive model for load forecasting in smart grids. The approach enhances accuracy by integrating weather and historical consumption data, aiding in efficient energy management and demand-side optimization.",
+        "pdf": "publications/predictive_load_forecasting_2022.pdf",
+        "link": "https://ieeexplore.ieee.org/document/5678901"
+    }
+},
+{
+    "model": "main.publication",
+    "pk": 6,
+    "fields": {
+        "title": "R. Patel and L. Zhao, 'Machine Learning-Based Anomaly Detection in Power Systems for Cybersecurity and Fault Prevention,' IEEE Transactions on Smart Grid, 2022.",
+        "publication_date": "2022-07-15",
+        "abstract": "A machine learning-driven anomaly detection system is proposed to improve power system cybersecurity. The model identifies irregular behaviors using real-time data, enabling proactive responses to cyber threats and hardware malfunctions.",
+        "pdf": "publications/anomaly_detection_power_systems_2022.pdf",
+        "link": "https://ieeexplore.ieee.org/document/6789012"
+    }
+},
+{
+    "model": "main.publication",
+    "pk": 7,
+    "fields": {
+        "title": "T. Nguyen, C. Brown, and P. White, 'Optimization of Energy Storage Systems Using Reinforcement Learning for Enhanced Microgrid Stability,' IEEE Transactions on Energy Conversion, 2022.",
+        "publication_date": "2022-11-20",
+        "abstract": "This research explores reinforcement learning-based optimization techniques for energy storage systems. The proposed method maximizes battery efficiency while ensuring microgrid stability under varying load conditions.",
+        "pdf": "publications/energy_storage_optimization_2022.pdf",
+        "link": "https://ieeexplore.ieee.org/document/7890123"
+    }
+},
+{
+    "model": "main.publication",
+    "pk": 8,
+    "fields": {
+        "title": "K. Lee, M. Garcia, and H. Kim, 'AI-Based Voltage Regulation in Smart Distribution Networks with High Renewable Penetration,' IEEE Journal of Emerging and Selected Topics in Power Electronics, 2023.",
+        "publication_date": "2023-02-28",
+        "abstract": "This paper introduces an AI-driven voltage regulation framework that enhances power quality in smart distribution networks. The proposed method adapts to fluctuating renewable energy sources, reducing power losses and voltage instability.",
+        "pdf": "publications/ai_voltage_regulation_2023.pdf",
+        "link": "https://ieeexplore.ieee.org/document/8901234"
+    }
+},
+{
+    "model": "main.publication",
+    "pk": 9,
+    "fields": {
+        "title": "B. Adams and Y. Chen, 'Hybrid Energy Management System for Smart Homes Integrating AI and IoT,' IEEE Transactions on Industrial Electronics, 2023.",
+        "publication_date": "2023-09-12",
+        "abstract": "This work proposes a hybrid energy management system that combines AI and IoT technologies to optimize energy usage in smart homes. The system intelligently allocates power resources, improving efficiency and reducing operational costs.",
+        "pdf": "publications/hybrid_energy_management_2023.pdf",
+        "link": "https://ieeexplore.ieee.org/document/9012345"
+    }
+},
+{
+    "model": "main.publication",
+    "pk": 10,
+    "fields": {
+        "title": "D. Wilson and F. Martinez, 'Blockchain-Enabled Peer-to-Peer Energy Trading for Decentralized Grids,' IEEE Transactions on Smart Grid, 2024.",
+        "publication_date": "2024-01-05",
+        "abstract": "A blockchain-based peer-to-peer energy trading framework is introduced to facilitate decentralized grid management. This system enhances transparency and security while enabling efficient transactions among energy consumers and prosumers.",
+        "pdf": "publications/blockchain_energy_trading_2024.pdf",
+        "link": "https://ieeexplore.ieee.org/document/9123456"
+    }
+},
+{
+    "model": "main.publication",
+    "pk": 11,
+    "fields": {
+        "title": "H. Tanaka, G. Roberts, and L. Xu, 'Cyber-Resilient Smart Grid Architecture Using AI-Driven Intrusion Detection Systems,' IEEE Transactions on Information Forensics and Security, 2024.",
+        "publication_date": "2024-04-18",
+        "abstract": "This paper presents an AI-driven intrusion detection system tailored for smart grid cybersecurity. The system effectively detects and mitigates cyber threats, ensuring resilient power system operations.",
+        "pdf": "publications/cyber_resilient_smart_grid_2024.pdf",
+        "link": "https://ieeexplore.ieee.org/document/9234567"
+    }
+},
+{
+    "model": "main.publication",
+    "pk": 12,
+    "fields": {
+        "title": "P. Singh and N. Fernandez, 'AI-Based Demand Response Optimization for Sustainable Energy Consumption in Smart Cities,' IEEE Transactions on Sustainable Computing, 2025.",
+        "publication_date": "2025-02-10",
+        "abstract": "This study develops an AI-powered demand response system that optimizes energy consumption in smart cities. The approach balances electricity demand and supply, reducing peak loads and enhancing grid reliability.",
+        "pdf": "publications/ai_demand_response_2025.pdf",
+        "link": "https://ieeexplore.ieee.org/document/9345678"
+    }
+},
+{
+    "model": "main.publication",
+    "pk": 13,
+    "fields": {
+        "title": "Y. Zhang, R. Kumar, M. Anderson, L. Smith, T. Johnson, and H. V. Poor, 'Deep Learning-Based Predictive Maintenance in Power Grids: A Transformer Model Approach,' IEEE Transactions on Smart Grid, 2023.",
+        "publication_date": "2023-03-15",
+        "abstract": "This paper explores a transformer-based deep learning approach for predictive maintenance in power grids. By leveraging historical data and real-time sensor readings, our model achieves high accuracy in forecasting equipment failures, reducing downtime and maintenance costs in smart grids.",
+        "pdf": "publications/predictive_maintenance.pdf",
+        "link": "https://ieeexplore.ieee.org/document/1234567"
+    }
+},
+{
+    "model": "main.publication",
+    "pk": 14,
+    "fields": {
+        "title": "A. Chen, D. Li, F. Gonzalez, R. Patel, and M. Stein, 'Quantum Computing for Secure Communication in IoT Networks: A Novel Encryption Protocol,' IEEE Internet of Things Journal, 2023.",
+        "publication_date": "2023-06-10",
+        "abstract": "Quantum computing presents new opportunities for enhancing security in IoT networks. This research proposes a quantum-resistant encryption protocol that ensures end-to-end security, mitigating threats posed by quantum-enabled cyber attacks on traditional cryptographic systems.",
+        "pdf": "publications/quantum_iot.pdf",
+        "link": "https://ieeexplore.ieee.org/document/2345678"
+    }
+},
+{
+    "model": "main.publication",
+    "pk": 15,
+    "fields": {
+        "title": "J. Park, X. Liu, K. Nakamura, and P. Mittal, 'Federated Learning for Distributed Energy Resource Optimization in Smart Cities,' IEEE Transactions on Sustainable Energy, 2023.",
+        "publication_date": "2023-08-21",
+        "abstract": "This work investigates federated learning as a decentralized optimization technique for managing distributed energy resources in smart cities. The proposed framework improves energy efficiency while preserving data privacy, making it a viable solution for future urban energy management.",
+        "pdf": "publications/federated_energy.pdf",
+        "link": "https://ieeexplore.ieee.org/document/3456789"
+    }
+},
+{
+    "model": "main.publication",
+    "pk": 16,
+    "fields": {
+        "title": "M. Taylor, B. Ross, A. Gupta, and L. Fang, 'Graph Neural Networks for Power System Fault Detection and Localization,' IEEE Transactions on Power Systems, 2023.",
+        "publication_date": "2023-10-30",
+        "abstract": "We present a novel application of graph neural networks (GNNs) for real-time fault detection and localization in power systems. Our model significantly outperforms traditional techniques in accuracy and speed, paving the way for advanced grid resilience strategies.",
+        "pdf": "publications/gnn_fault_detection.pdf",
+        "link": "https://ieeexplore.ieee.org/document/4567890"
+    }
+}
+]

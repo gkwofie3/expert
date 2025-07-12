@@ -1,0 +1,3346 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-11-18T05:37:15.672Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "ECCE IEEE Energy Conversion Congress & Expo 2024, Phoenix, AZ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-11-18T05:40:54.089Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "ECCE IEEE Energy Conversion Congress",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-11-18T05:50:13.147Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "ECCE IEEE Energy Conversion Congress",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-11-18T05:50:50.721Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "RPI Space Science and Technology Day, EMPAC-RPI",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-11-18T05:51:43.986Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "ECCE IEEE Energy Conversion Congress",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-11-18T05:52:15.331Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "Dinosaur Bar-B-Que, Troy, NY",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-11-18T05:52:53.967Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "5",
+        "object_repr": "NASA Team Lab Tour, RPI",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-11-18T05:53:27.944Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "NASA Visit July 2024",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-11-18T06:00:53.445Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "NASA Visit July 2024",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-11-18T06:03:41.820Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "NASA Visit July 2024",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Display title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-11-18T06:03:50.860Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "RPI Space Science and Technology Day, EMPAC-RPI",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Display title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-11-18T06:04:04.175Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "ECCE IEEE Energy Conversion Congress",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Display title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-11-18T06:08:50.329Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "ExPERT Lab",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2024-11-18T06:19:52.504Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Clemson University",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2024-11-18T06:21:02.240Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "DOE ARPA-e",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2024-11-18T06:21:40.469Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "DOE EERE SETO",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2024-11-18T06:22:06.142Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "DOE EERE VTO",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2024-11-18T06:22:32.215Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "5",
+        "object_repr": "NASA",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2024-11-18T07:18:03.842Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Integration of business",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2024-11-18T08:41:48.740Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Breakthrough in GaN Technology for Power Efficiency",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2024-11-18T08:42:36.583Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Launch of Ultra-Compact Inverters for Renewable Energy",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2024-11-18T08:43:22.495Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "New Wide-Bandgap Semiconductors for Extreme Environments",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2024-11-18T08:44:04.021Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "Advances in Wireless Charging for Industrial Applications",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2024-11-18T10:43:32.506Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "2",
+        "object_repr": "Israel Robert Zikpi (israelrobertzikpi@gmail.com)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2024-11-18T12:04:37.698Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "ExPERT Lab",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Mission\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2024-11-18T12:07:40.591Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "3",
+        "object_repr": "Clement Quansah (gideonkwofie4@gmail.com)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2024-11-18T12:09:38.138Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Integration of business",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2024-11-18T12:12:27.043Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "3",
+        "object_repr": "Clement Quansah (gideonkwofie4@gmail.com)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2024-11-18T12:25:42.653Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "5",
+        "object_repr": "NASA Team Lab Tour, RPI",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Display title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2024-11-18T12:26:02.413Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "Dinosaur Bar-B-Que, Troy, NY",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Display title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2024-11-18T12:43:24.660Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "4",
+        "object_repr": "Ahmed Shahnewaz Siraj (siraja@rpi.edu)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2024-11-18T12:44:13.580Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "4",
+        "object_repr": "Ahmed Shahnewaz Siraj (siraja@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Profile picture\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2024-11-18T12:45:20.340Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "2",
+        "object_repr": "Israel Robert Zikpi (israelrobertzikpi@gmail.com)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2024-11-18T12:49:49.043Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "5",
+        "object_repr": "Khadka Purushottam Khadka (khadkp@rpi.edu)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2024-11-18T12:52:20.799Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "6",
+        "object_repr": "Khan Shahabuddin Khan (khans10@rpi.edu)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2024-11-18T12:54:10.494Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "7",
+        "object_repr": "Zikpi Israel Zikpi (zikpii@rpi.edu)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2024-11-18T12:57:02.770Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "7",
+        "object_repr": "Zikpi Israel Zikpi (zikpii@rpi.edu)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2024-11-18T12:57:02.803Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "6",
+        "object_repr": "Khan Shahabuddin Khan (khans10@rpi.edu)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2024-11-18T12:58:43.592Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "8",
+        "object_repr": "Qiu Tian Qiu (qiut2@rpi.edu)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2024-11-18T13:02:15.351Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "9",
+        "object_repr": "Rana Dilip Rana (ranad@rpi.edu)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2024-11-18T13:02:48.163Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "9",
+        "object_repr": "Rana Dilip Rana (ranad@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2024-11-18T13:07:36.541Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "10",
+        "object_repr": "Zikpi Israel Zikpi (zikpii@rpi.edu)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2024-11-18T13:10:37.638Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "11",
+        "object_repr": "Khan Shahabuddin Khan (khans10@rpi.edu)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2024-11-18T13:15:01.756Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "12",
+        "object_repr": "Shivdikar Saumil Chandrakant Shivdikar (shivds@rpi.edu)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2024-11-18T13:17:21.826Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "13",
+        "object_repr": "Das Annoy Kumar Das (dasa7@rpi.edu)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2024-11-18T13:19:44.325Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "14",
+        "object_repr": "Liwei Wang Liwei (liweiw@g.clemson.edu)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2024-11-18T13:24:51.293Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "15",
+        "object_repr": "Zheyu Zhang Zheyu (zhangz49@rpi.edu)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2024-11-18T13:26:38.093Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "15",
+        "object_repr": "Zhang Zheyu (zhangz49@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Firstname\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2024-11-18T13:27:20.430Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "14",
+        "object_repr": "Wang Liwei (liweiw@g.clemson.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Firstname\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2024-11-18T13:28:30.170Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "13",
+        "object_repr": "Annoy Kumar Das (dasa7@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Firstname\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2024-11-18T13:28:50.676Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "12",
+        "object_repr": "Saumil Chandrakant Shivdikar (shivds@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Firstname\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2024-11-18T13:29:08.811Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "11",
+        "object_repr": "Shahabuddin Khan (khans10@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Firstname\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2024-11-18T13:29:23.825Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "9",
+        "object_repr": "Dilip Rana (ranad@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Firstname\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2024-11-18T13:29:43.752Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "10",
+        "object_repr": "Israel Zikpi (zikpii@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Firstname\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2024-11-18T13:30:07.784Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "8",
+        "object_repr": "Tian Qiu (qiut2@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Firstname\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2024-11-18T13:30:25.756Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "5",
+        "object_repr": "Purushottam Khadka (khadkp@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Firstname\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2024-11-18T13:30:44.136Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "4",
+        "object_repr": "Ahmed Shahnewaz Siraj (siraja@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2024-11-27T08:55:21.026Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "15",
+        "object_repr": "Zhang Zheyu (zhangz49@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Introduction\", \"Role\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2024-11-27T09:02:44.171Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "15",
+        "object_repr": "Zhang Zheyu (zhangz49@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2024-11-27T09:03:25.557Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "14",
+        "object_repr": "Wang Liwei (liweiw@g.clemson.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Introduction\", \"Role\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2024-11-27T09:03:54.869Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "13",
+        "object_repr": "Annoy Kumar Das (dasa7@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Introduction\", \"Role\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2024-11-27T09:04:43.093Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "12",
+        "object_repr": "Saumil Chandrakant Shivdikar (shivds@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Introduction\", \"Role\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2024-11-27T09:05:09.687Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "11",
+        "object_repr": "Shahabuddin Khan (khans10@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Introduction\", \"Role\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2024-11-27T09:05:42.165Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "10",
+        "object_repr": "Israel Zikpi (zikpii@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Introduction\", \"Role\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2024-11-27T09:06:11.422Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "9",
+        "object_repr": "Dilip Rana (ranad@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Introduction\", \"Role\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2024-11-27T09:06:47.097Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "8",
+        "object_repr": "Tian Qiu (qiut2@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Introduction\", \"Role\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2024-11-27T09:07:09.654Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "5",
+        "object_repr": "Purushottam Khadka (khadkp@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Introduction\", \"Role\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2024-11-27T09:07:41.920Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "4",
+        "object_repr": "Ahmed Shahnewaz Siraj (siraja@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Introduction\", \"Role\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2024-11-27T09:42:51.776Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "ExPERT Lab",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2024-11-27T14:37:01.528Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "15",
+        "object_repr": "Zhang Zheyu (zhangz49@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2024-11-29T15:31:31.067Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "6",
+        "object_repr": "RPI",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2024-11-29T15:36:12.467Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "7",
+        "object_repr": "The University of Tennessee",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2024-11-29T15:37:40.154Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "7",
+        "object_repr": "The University of Tennessee",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2024-11-29T15:42:47.057Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "8",
+        "object_repr": "Office of Naval Research",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2024-11-29T15:54:56.304Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "9",
+        "object_repr": "Naval Nuclear Lab",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2024-11-29T16:41:56.980Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "15",
+        "object_repr": "Zhang Zheyu (zhangz49@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Office\", \"Introduction\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2024-11-29T16:53:03.311Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "15",
+        "object_repr": "Zhang Zheyu (zhangz49@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Website\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2024-11-29T16:54:56.767Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "4",
+        "object_repr": "Ahmed Shahnewaz Siraj (siraja@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Website\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2024-11-29T17:57:19.956Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "16",
+        "object_repr": "Qin Dehao (dehaoq@g.clemson.edu)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2024-11-29T18:00:34.640Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "17",
+        "object_repr": "Brown Buck (buckb@g.clemson.edu)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2024-11-29T18:12:46.500Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "18",
+        "object_repr": "Johns James (abcd@gmail.com)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2024-11-29T18:13:59.454Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "18",
+        "object_repr": "Johns James (abcd@gmail.com)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Profile picture\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2024-11-29T18:15:23.245Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "18",
+        "object_repr": "Johns James (abcd@gmail.com)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Profile picture\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2024-12-06T12:29:16.192Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "NASA Visit July 2024",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2024-12-06T12:31:03.527Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "5",
+        "object_repr": "NASA Team Lab Tour, RPI",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2024-12-06T12:32:55.331Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "Dinosaur Bar-B-Que, Troy, NY",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2024-12-06T12:35:04.279Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "ECCE IEEE Energy Conversion Congress",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2024-12-06T13:59:44.613Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "13",
+        "object_repr": "Annoy Kumar Das (dasa7@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Profile picture\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2025-01-04T09:29:04.947Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "10",
+        "object_repr": "Israel Zikpi (zikpii@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Introduction\", \"Start on\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2025-01-04T09:32:41.103Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "10",
+        "object_repr": "Israel Zikpi (zikpii@rpi.edu)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Experted graduation\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2025-01-27T12:48:52.881Z",
+        "user": 1,
+        "content_type": 25,
+        "object_id": "1",
+        "object_repr": "Bachelor's Degree",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"User\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2025-01-27T12:49:28.882Z",
+        "user": 1,
+        "content_type": 25,
+        "object_id": "2",
+        "object_repr": "Bachelor's Degree",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"User\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2025-01-27T13:12:27.113Z",
+        "user": 1,
+        "content_type": 25,
+        "object_id": "3",
+        "object_repr": "PhD",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"User\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add database",
+        "content_type": 7,
+        "codename": "add_database"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change database",
+        "content_type": 7,
+        "codename": "change_database"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete database",
+        "content_type": 7,
+        "codename": "delete_database"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view database",
+        "content_type": 7,
+        "codename": "view_database"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add lab",
+        "content_type": 8,
+        "codename": "add_lab"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change lab",
+        "content_type": 8,
+        "codename": "change_lab"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete lab",
+        "content_type": 8,
+        "codename": "delete_lab"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view lab",
+        "content_type": 8,
+        "codename": "view_lab"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add news",
+        "content_type": 9,
+        "codename": "add_news"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change news",
+        "content_type": 9,
+        "codename": "change_news"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete news",
+        "content_type": 9,
+        "codename": "delete_news"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view news",
+        "content_type": 9,
+        "codename": "view_news"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add publication",
+        "content_type": 10,
+        "codename": "add_publication"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change publication",
+        "content_type": 10,
+        "codename": "change_publication"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete publication",
+        "content_type": 10,
+        "codename": "delete_publication"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view publication",
+        "content_type": 10,
+        "codename": "view_publication"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add slider",
+        "content_type": 11,
+        "codename": "add_slider"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change slider",
+        "content_type": 11,
+        "codename": "change_slider"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete slider",
+        "content_type": 11,
+        "codename": "delete_slider"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view slider",
+        "content_type": 11,
+        "codename": "view_slider"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add sponsor",
+        "content_type": 12,
+        "codename": "add_sponsor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change sponsor",
+        "content_type": 12,
+        "codename": "change_sponsor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete sponsor",
+        "content_type": 12,
+        "codename": "delete_sponsor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view sponsor",
+        "content_type": 12,
+        "codename": "view_sponsor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add research",
+        "content_type": 13,
+        "codename": "add_research"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change research",
+        "content_type": 13,
+        "codename": "change_research"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete research",
+        "content_type": 13,
+        "codename": "delete_research"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view research",
+        "content_type": 13,
+        "codename": "view_research"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add highlight",
+        "content_type": 14,
+        "codename": "add_highlight"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change highlight",
+        "content_type": 14,
+        "codename": "change_highlight"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete highlight",
+        "content_type": 14,
+        "codename": "delete_highlight"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view highlight",
+        "content_type": 14,
+        "codename": "view_highlight"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add teaching",
+        "content_type": 15,
+        "codename": "add_teaching"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change teaching",
+        "content_type": 15,
+        "codename": "change_teaching"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete teaching",
+        "content_type": 15,
+        "codename": "delete_teaching"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view teaching",
+        "content_type": 15,
+        "codename": "view_teaching"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 16,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 16,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 16,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 16,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add academic achievement",
+        "content_type": 17,
+        "codename": "add_academicachievement"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change academic achievement",
+        "content_type": 17,
+        "codename": "change_academicachievement"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete academic achievement",
+        "content_type": 17,
+        "codename": "delete_academicachievement"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view academic achievement",
+        "content_type": 17,
+        "codename": "view_academicachievement"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+        "name": "Can add admin note",
+        "content_type": 18,
+        "codename": "add_adminnote"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+        "name": "Can change admin note",
+        "content_type": 18,
+        "codename": "change_adminnote"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+        "name": "Can delete admin note",
+        "content_type": 18,
+        "codename": "delete_adminnote"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+        "name": "Can view admin note",
+        "content_type": 18,
+        "codename": "view_adminnote"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+        "name": "Can add award",
+        "content_type": 19,
+        "codename": "add_award"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+        "name": "Can change award",
+        "content_type": 19,
+        "codename": "change_award"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+        "name": "Can delete award",
+        "content_type": 19,
+        "codename": "delete_award"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+        "name": "Can view award",
+        "content_type": 19,
+        "codename": "view_award"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+        "name": "Can add publication",
+        "content_type": 20,
+        "codename": "add_publication"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+        "name": "Can change publication",
+        "content_type": 20,
+        "codename": "change_publication"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+        "name": "Can delete publication",
+        "content_type": 20,
+        "codename": "delete_publication"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+        "name": "Can view publication",
+        "content_type": 20,
+        "codename": "view_publication"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 81,
+    "fields": {
+        "name": "Can add research interest",
+        "content_type": 21,
+        "codename": "add_researchinterest"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 82,
+    "fields": {
+        "name": "Can change research interest",
+        "content_type": 21,
+        "codename": "change_researchinterest"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 83,
+    "fields": {
+        "name": "Can delete research interest",
+        "content_type": 21,
+        "codename": "delete_researchinterest"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 84,
+    "fields": {
+        "name": "Can view research interest",
+        "content_type": 21,
+        "codename": "view_researchinterest"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 85,
+    "fields": {
+        "name": "Can add research project",
+        "content_type": 22,
+        "codename": "add_researchproject"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 86,
+    "fields": {
+        "name": "Can change research project",
+        "content_type": 22,
+        "codename": "change_researchproject"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 87,
+    "fields": {
+        "name": "Can delete research project",
+        "content_type": 22,
+        "codename": "delete_researchproject"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 88,
+    "fields": {
+        "name": "Can view research project",
+        "content_type": 22,
+        "codename": "view_researchproject"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 89,
+    "fields": {
+        "name": "Can add career preparation",
+        "content_type": 23,
+        "codename": "add_careerpreparation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 90,
+    "fields": {
+        "name": "Can change career preparation",
+        "content_type": 23,
+        "codename": "change_careerpreparation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 91,
+    "fields": {
+        "name": "Can delete career preparation",
+        "content_type": 23,
+        "codename": "delete_careerpreparation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 92,
+    "fields": {
+        "name": "Can view career preparation",
+        "content_type": 23,
+        "codename": "view_careerpreparation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 93,
+    "fields": {
+        "name": "Can add skill",
+        "content_type": 24,
+        "codename": "add_skill"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 94,
+    "fields": {
+        "name": "Can change skill",
+        "content_type": 24,
+        "codename": "change_skill"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 95,
+    "fields": {
+        "name": "Can delete skill",
+        "content_type": 24,
+        "codename": "delete_skill"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 96,
+    "fields": {
+        "name": "Can view skill",
+        "content_type": 24,
+        "codename": "view_skill"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 97,
+    "fields": {
+        "name": "Can add education",
+        "content_type": 25,
+        "codename": "add_education"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 98,
+    "fields": {
+        "name": "Can change education",
+        "content_type": 25,
+        "codename": "change_education"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 99,
+    "fields": {
+        "name": "Can delete education",
+        "content_type": 25,
+        "codename": "delete_education"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 100,
+    "fields": {
+        "name": "Can view education",
+        "content_type": 25,
+        "codename": "view_education"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 101,
+    "fields": {
+        "name": "Can add reset tokens",
+        "content_type": 26,
+        "codename": "add_resettokens"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 102,
+    "fields": {
+        "name": "Can change reset tokens",
+        "content_type": 26,
+        "codename": "change_resettokens"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 103,
+    "fields": {
+        "name": "Can delete reset tokens",
+        "content_type": 26,
+        "codename": "delete_resettokens"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 104,
+    "fields": {
+        "name": "Can view reset tokens",
+        "content_type": 26,
+        "codename": "view_resettokens"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "main",
+        "model": "database"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "main",
+        "model": "lab"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "main",
+        "model": "news"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "main",
+        "model": "publication"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "main",
+        "model": "slider"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "main",
+        "model": "sponsor"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "main",
+        "model": "research"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "main",
+        "model": "highlight"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "main",
+        "model": "teaching"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "users",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "users",
+        "model": "academicachievement"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+        "app_label": "users",
+        "model": "adminnote"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+        "app_label": "users",
+        "model": "award"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 20,
+    "fields": {
+        "app_label": "users",
+        "model": "publication"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 21,
+    "fields": {
+        "app_label": "users",
+        "model": "researchinterest"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 22,
+    "fields": {
+        "app_label": "users",
+        "model": "researchproject"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 23,
+    "fields": {
+        "app_label": "users",
+        "model": "careerpreparation"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 24,
+    "fields": {
+        "app_label": "users",
+        "model": "skill"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 25,
+    "fields": {
+        "app_label": "users",
+        "model": "education"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 26,
+    "fields": {
+        "app_label": "users",
+        "model": "resettokens"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "0w6qidob49tcfxookqrt4j8wtkhgwfnp",
+    "fields": {
+        "session_data": ".eJxVjLEOAiEQRP-F2pCAyoKlvd9Alt1FTg0kx11l_He55AqtJnnzZt4q4rqUuHaZ48Tqoow6_LKE9JS6FfzAem-aWl3mKelN0Xvb9a2xvK67-3dQsJexJhCgIInPFgywD-jQ2jSSxSfjQh4YSVgc0wlsZvY4bEeQj9Yb9fkCDWo5Dw:1tUl9Q:HVUCVNnoxtlzixfo2WyRVLWdiQY7ksHfzkM160zufdk",
+        "expire_date": "2025-01-20T11:20:04.314Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "4zmpcdry4e90loiwlkcd3u9ome6wbnxu",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAUBf-FtSHcUqB16d5vINwHUjU0Ke3K-O_apAvdnpk5LxXTtpa4NVnixOqsQJ1-N0z0kLoDvqd6mzXNdV0m1LuiD9r0dWZ5Xg7376CkVr61CwTUJwjUeZ-NYAC0YZBRxAn0GS2jcd54gsFyx0KjEBuXRwsObafeH-0VOCo:1tCuAe:eos2A2jYPB0KEpJAQ18Q6lwxBtPiLdmkNCvpw1CkKM0",
+        "expire_date": "2024-12-02T05:19:32.210Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "729ekretwdbkjv2ckjxr2dc9cfyhpto0",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlkb_2JT0nOGaL1r4wCypTipEHeHSCmgfTPzXmLCbS3T1tMyzSzOYhCn3y0iPVLdAd-x3pqkVtdljnJX5EG7vDZOz8vh_h0U7OVbk_PaA2cDJhtlIEU7amtyBnKRFVFglQcKCMjBO20hAWqb7RidHyKJ9wfgdjf6:1tGJme:y1hCDFvi5s0ZpHiC6scbjl21UJTPwfdeOUPlNDep9z4",
+        "expire_date": "2024-12-11T15:16:52.384Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "7ypu8wl3krramdwyy8idxuswubytq27c",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlkb_2JT0nOGaL1r4wCypTipEHeHSCmgfTPzXmLCbS3T1tMyzSzOYhCn3y0iPVLdAd-x3pqkVtdljnJX5EG7vDZOz8vh_h0U7OVbk_PaA2cDJhtlIEU7amtyBnKRFVFglQcKCMjBO20hAWqb7RidHyKJ9wfgdjf6:1tH2wf:yq4-6pl1uk-aGTwfHv86mywMfvDDomJEHSsFaDT8fFM",
+        "expire_date": "2024-12-13T15:30:13.904Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "a09qgocyjzeix7b3o1umu0lwmi8ihwq6",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlkb_2JT0nOGaL1r4wCypTipEHeHSCmgfTPzXmLCbS3T1tMyzSzOYhCn3y0iPVLdAd-x3pqkVtdljnJX5EG7vDZOz8vh_h0U7OVbk_PaA2cDJhtlIEU7amtyBnKRFVFglQcKCMjBO20hAWqb7RidHyKJ9wfgdjf6:1tGOIq:Pu3Og76X_xE8uRjxcMsg1-RT_fs4U-Q4PtkzlimbCek",
+        "expire_date": "2024-12-11T20:06:24.419Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "fiknva4znqlerilbii4vz47144cn7s71",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQBf-FsyEgsAWP3vsNZIFFqgaS0p6M_9426UGvb2beh3lcl-LXTrOfErsxyS6_W8D4onqA9MT6aDy2usxT4IfCT9r52BK976f7d1Cwl71GjFoMWVwdAmWNWmcJhkBFY5yBJLMzyUqwgNYSBaEcxSFIhxqDFYp9N-YaN98:1tGIpY:0hVZSk9cUmoC-dDHXtgU42dDIapg63zIBvU4OyTMITs",
+        "expire_date": "2024-12-11T14:15:48.899Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "grjtbzsilswkurg556d17sfii7g6vqf2",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQRP-FsyEF2QIevfsNZBcWqRpISnsy_rtt0oPeJvPezFsEXJcS1s5zmJK4CDWI029JGJ9cd5IeWO9NxlaXeSK5K_KgXd5a4tf1cP8OCvayrUeCwVEmk6JnRaz9GbYEPDI40MZp9IAuW5tyspC99y5jjsYaVjEq8fkCHVM4ww:1tmVfQ:LydESGzagKD4hhKfInmFz_gMp4hvt_xsLd-tTaPbJFQ",
+        "expire_date": "2025-03-10T10:26:28.484Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "h9httzelypj38w10z1070ricxceqiiv6",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlm2179Q0nMGa9fr4ABypDipEHeHSCmgfTPzXiLhtta09bKkicVZaCVOvyNhfpS2E75ju80yz21dJpK7Ig_a5XXm8rwc7t9BxV6_NYDXlr0NqMZRDyYbDMEpACha5YjMmQyRcgTWZ6MpajJuiDwQxABevD_sOTdc:1tcV73:kyW_uTUBoh7V3UUrQ-bAN0ovK2SZlXztLoLfQVh5JK0",
+        "expire_date": "2025-02-10T19:49:37.805Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "jaw8hu71ccvw5f7p57m78bkklgpasulx",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hChDBSX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gI5cTpd4yYHlx3QnestyZTq-syR7kr8qBdTo34eT3cv4OCvXxr45xP1gMAQ_bGMSHxkI0j5PE8KhMpW0zZerKDUwQZPZJiQ1onBC3eHxwuOOU:1tcQCz:aGfYIwgdsly7zE79sqrOGSv11Uk-ebv_q1oxkhVyAFo",
+        "expire_date": "2025-02-10T14:35:25.887Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "jyftdzk7i8z65wv6eiamnnn7cstjob2g",
+    "fields": {
+        "session_data": ".eJxVjLEOAiEQRP-F2pCAyoKlvd9Alt1FTg0kx11l_He55AqtJnnzZt4q4rqUuHaZ48Tqoow6_LKE9JS6FfzAem-aWl3mKelN0Xvb9a2xvK67-3dQsJexJhCgIInPFgywD-jQ2jSSxSfjQh4YSVgc0wlsZvY4bEeQj9Yb9fkCDWo5Dw:1tJXMm:iqJ8FbVeBp8Y_IIV6U3TNc07EJVpuYzrgFEjcW6ks4w",
+        "expire_date": "2024-12-20T12:23:28.642Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "kbmrejxssvasbbsofxr0j1agd1jj70yu",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQBf-FsyEgsAWP3vsNZIFFqgaS0p6M_9426UGvb2beh3lcl-LXTrOfErsxyS6_W8D4onqA9MT6aDy2usxT4IfCT9r52BK976f7d1Cwl71GjFoMWVwdAmWNWmcJhkBFY5yBJLMzyUqwgNYSBaEcxSFIhxqDFYp9N-YaN98:1tGDjU:8iM75sstWUW6yS2xHYos62-PKKpzAbN0m4aBftAY1JM",
+        "expire_date": "2024-12-11T08:49:12.855Z"
+    }
+},
+{
+    "model": "main.lab",
+    "pk": 1,
+    "fields": {
+        "name": "ExPERT Lab",
+        "logo": "lab/expertlogo.png",
+        "about": "Advancing the field of power electronics, our research group focuses on pioneering technologies and methodologies that enhance energy efficiency, reliability, and performance across various applications. Our team delves into innovative circuit design, control strategies, and semiconductor technologies, addressing challenges in renewable energy, electric vehicles, and industrial automation. With a commitment to impactful research, we aim to contribute solutions that support sustainable and efficient power systems for the modern world.",
+        "mission": "Advancing the field of power electronics, our research group focuses on pioneering technologies and methodologies that enhance energy efficiency, reliability, and performance across various applications. Our team delves into innovative circuit design, control strategies, and semiconductor technologies,ntribute solutions that support sustainable and efficient power systems for the modern world. addressing challenges in renewable energy, electric vehicles, and industrial automation. With a commitment to impactful research, we aim to co",
+        "vision": "Advancing the field of power electronics, our research group focuses on pioneering technologies and methodologies that enhance energy efficiency, reliability, and performance across various applications. Our team delves into innovative circuit design, control strategies, and semiconductor technologies, addressing challenges in renewable energy, electric vehicles, and industrial automation. With a commitment to impactful research, we aim to contribute solutions that support sustainable and efficient power systems for the modern world.",
+        "values": "Advancing the field of power electronics, our research group focuses on pioneering technologies and methodologies that enhance energy efficiency, reliability, and performance across various applications. Our team delves into innovative circuit design, control strategies, and semiconductor technologies, addressing challenges in renewable energy, electric vehicles, and industrial automation. With a commitment to impactful research, we aim to contribute solutions that support sustainable and efficient power systems for the modern world.",
+        "established_date": "2024-11-18",
+        "head": "Dr. Alex Harmon, Lead Researcher",
+        "contact_email": "info@exprtlab.com",
+        "contact_phone": "+12378848999493",
+        "location": "California",
+        "website": "https://expertlab.com",
+        "research_focus": "Power electronics",
+        "affiliated_department": "Electrical Engineering",
+        "equipment": "Nothing",
+        "funding_sources": "Nothinh",
+        "team_members": "wrg",
+        "social_media_links": null,
+        "created_at": "2024-11-18T06:08:50.315Z",
+        "updated_at": "2024-11-27T09:42:51.760Z"
+    }
+},
+{
+    "model": "main.slider",
+    "pk": 2,
+    "fields": {
+        "title": "RPI Space Science and Technology Day, EMPAC-RPI",
+        "description": "RPI Space Science and Technology Day, EMPAC-RPI",
+        "image": "slider/RPI_Space_Science_and_Technology_Day_EMPAC-RPI.jpg",
+        "link": "/",
+        "align": "left",
+        "display_title": false,
+        "index": 0
+    }
+},
+{
+    "model": "main.slider",
+    "pk": 3,
+    "fields": {
+        "title": "ECCE IEEE Energy Conversion Congress",
+        "description": "ECCE IEEE Energy Conversion Congress & Expo 2024, Phoenix, AZ.",
+        "image": "slider/ECCE_IEEE_Energy_Conversion_Congress__Expo_2024_Phoenix_AZ_Qj4hoHi..jpeg",
+        "link": "/",
+        "align": "right",
+        "display_title": false,
+        "index": 0
+    }
+},
+{
+    "model": "main.slider",
+    "pk": 4,
+    "fields": {
+        "title": "Dinosaur Bar-B-Que, Troy, NY",
+        "description": "Dinosaur Bar-B-Que, Troy, NY",
+        "image": "slider/Dinosaur_Bar-B-Que_Troy_NY_Qw8BYVL.jpg",
+        "link": "/",
+        "align": "left",
+        "display_title": false,
+        "index": 0
+    }
+},
+{
+    "model": "main.slider",
+    "pk": 5,
+    "fields": {
+        "title": "NASA Team Lab Tour, RPI",
+        "description": "NASA Team Lab Tour, RPI",
+        "image": "slider/NASA_Team_Lab_Tour_RPI_bn5OeHc.jpg",
+        "link": "/",
+        "align": "right",
+        "display_title": false,
+        "index": 0
+    }
+},
+{
+    "model": "main.slider",
+    "pk": 6,
+    "fields": {
+        "title": "NASA Visit July 2024",
+        "description": "NASA Visit July 2024",
+        "image": "slider/NASA_Visit_July_2024_htb0WSI.jpg",
+        "link": "/",
+        "align": "right",
+        "display_title": false,
+        "index": 0
+    }
+},
+{
+    "model": "main.sponsor",
+    "pk": 1,
+    "fields": {
+        "name": "Clemson University",
+        "logo": "sponsors/Clemson_University.png",
+        "website": "Clemson University",
+        "description": "Clemson University",
+        "support_level": "basic",
+        "added_on": "2024-11-18",
+        "index": 1
+    }
+},
+{
+    "model": "main.sponsor",
+    "pk": 2,
+    "fields": {
+        "name": "DOE ARPA-e",
+        "logo": "sponsors/DOE_ARPA-e.jpg",
+        "website": "DOE ARPA-e",
+        "description": "DOE ARPA-e",
+        "support_level": "basic",
+        "added_on": "2024-11-18",
+        "index": 1
+    }
+},
+{
+    "model": "main.sponsor",
+    "pk": 3,
+    "fields": {
+        "name": "DOE EERE SETO",
+        "logo": "sponsors/DOE_EERE_SETO.png",
+        "website": "DOE EERE SETO",
+        "description": "DOE EERE SETO",
+        "support_level": "DOE EERE SETO",
+        "added_on": "2024-11-18",
+        "index": 1
+    }
+},
+{
+    "model": "main.sponsor",
+    "pk": 4,
+    "fields": {
+        "name": "DOE EERE VTO",
+        "logo": "sponsors/DOE_EERE_VTO.png",
+        "website": "DOE EERE VTO",
+        "description": "DOE EERE VTO",
+        "support_level": "basic",
+        "added_on": "2024-11-18",
+        "index": 1
+    }
+},
+{
+    "model": "main.sponsor",
+    "pk": 5,
+    "fields": {
+        "name": "NASA",
+        "logo": "sponsors/NASA.png",
+        "website": "NASA",
+        "description": "NASA",
+        "support_level": "NASA",
+        "added_on": "2024-11-18",
+        "index": 1
+    }
+},
+{
+    "model": "main.sponsor",
+    "pk": 6,
+    "fields": {
+        "name": "RPI",
+        "logo": "sponsors/RPI_JPG.jpg",
+        "website": "",
+        "description": "",
+        "support_level": null,
+        "added_on": "2024-11-29",
+        "index": 1
+    }
+},
+{
+    "model": "main.sponsor",
+    "pk": 7,
+    "fields": {
+        "name": "The University of Tennessee",
+        "logo": "sponsors/University-HorizLeftLogo-RGB.jpg",
+        "website": "",
+        "description": "",
+        "support_level": null,
+        "added_on": "2024-11-29",
+        "index": 1
+    }
+},
+{
+    "model": "main.sponsor",
+    "pk": 8,
+    "fields": {
+        "name": "Office of Naval Research",
+        "logo": "sponsors/Office_of_Naval_Research.png",
+        "website": "",
+        "description": "",
+        "support_level": null,
+        "added_on": "2024-11-29",
+        "index": 1
+    }
+},
+{
+    "model": "main.sponsor",
+    "pk": 9,
+    "fields": {
+        "name": "Naval Nuclear Lab",
+        "logo": "sponsors/Naval_Nuclear_Lab_Uncorrupted.png",
+        "website": "",
+        "description": "",
+        "support_level": null,
+        "added_on": "2024-11-29",
+        "index": 1
+    }
+},
+{
+    "model": "main.news",
+    "pk": 2,
+    "fields": {
+        "title": "Breakthrough in GaN Technology for Power Efficiency",
+        "content": "Breakthrough in GaN Technology for Power Efficiency",
+        "image": "news/Power-electronics-course-power-electronics-news.webp",
+        "published_date": "2024-11-18T08:41:48.732Z",
+        "author": "Israel",
+        "featured": true
+    }
+},
+{
+    "model": "main.news",
+    "pk": 3,
+    "fields": {
+        "title": "Launch of Ultra-Compact Inverters for Renewable Energy",
+        "content": "ExPERT has announced a new series of ultra-compact, high-efficiency inverters designed for residential and commercial solar installations. Inverters are a crucial component of solar energy systems, converting direct current (DC) generated by solar panels into alternating current (AC) used by the electrical grid. ExPERT's new inverters are not only significantly smaller than traditional models but also provide a marked improvement in energy efficiency, which means more of the sun's energy is converted into usable electricity. These inverters have been designed with ease of installation in mind, reducing the time and labor costs associated with solar panel setups. Additionally, they feature advanced cooling systems that maintain optimal operating temperatures, enhancing performance and longevity even in high-heat environments. The inverters also come with intelligent monitoring systems, enabling users to track energy production in real-time and diagnose issues remotely. These new features aim to make renewable energy more accessible and financially viable for a broader range of users, furthering the global push toward sustainable energy solutions.",
+        "image": "news/newspeople.jpg",
+        "published_date": "2024-11-18T08:42:36.578Z",
+        "author": "Israel",
+        "featured": true
+    }
+},
+{
+    "model": "main.news",
+    "pk": 4,
+    "fields": {
+        "title": "New Wide-Bandgap Semiconductors for Extreme Environments",
+        "content": "Wide-bandgap semiconductors represent a new frontier in power electronics, and ExPERT's recent advancement in this field is poised to expand the application of these materials to extreme environments. Traditional semiconductors, like silicon, struggle to maintain performance at high temperatures and voltages, limiting their use in industries such as aerospace and defense where extreme conditions are common. ExPERT's development uses materials like silicon carbide (SiC) and gallium nitride (GaN), which offer better performance in harsh conditions. These wide-bandgap semiconductors can operate at temperatures above 300°C and handle high voltages without performance degradation, providing a reliable solution for high-power applications. This resilience makes them ideal for satellites, space exploration, and military equipment that operates in extreme environments. The durability of these materials also extends the life of power systems, reducing maintenance needs and making them more cost-effective over time. This advancement will likely enable the development of more robust electronic systems for space missions and high-performance vehicles.",
+        "image": "news/PEN-Motor-Drive-Image.jpg",
+        "published_date": "2024-11-18T08:43:22.474Z",
+        "author": "Israel",
+        "featured": false
+    }
+},
+{
+    "model": "main.news",
+    "pk": 5,
+    "fields": {
+        "title": "Advances in Wireless Charging for Industrial Applications",
+        "content": "ExPERT researchers have achieved a milestone in wireless charging technology, specifically tailored for industrial applications. Unlike traditional wireless charging solutions that are designed for small electronics, this technology is capable of charging large machinery and equipment wirelessly, which is a game-changer for industries where equipment mobility and ease of access are critical. The system uses resonant inductive coupling to transfer power over short distances, eliminating the need for physical connectors or cables, which can wear out or cause safety hazards. Industrial environments often require frequent equipment relocation or are exposed to harsh conditions that make traditional charging setups less feasible. ExPERT’s wireless charging solution simplifies operations, making it easier to charge large, mobile equipment in hard-to-reach locations or hazardous areas. The system also provides safety benefits by reducing the need for exposed wires, which can pose electrocution or tripping hazards. This innovation is expected to enhance productivity and safety, providing a flexible and efficient power solution in settings such as warehouses, manufacturing plants, and mining sites.",
+        "image": "news/1707390785858.jpeg",
+        "published_date": "2024-11-18T08:44:04.010Z",
+        "author": "Israel",
+        "featured": true
+    }
+},
+{
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$2OdHZSOUSgRCsWwwNFGLDz$ICqVAlWrBQM8d2pEpgVCvTYsI8kg1Q3CZFCUqvShGUI=",
+        "last_login": "2025-01-27T10:48:11.650Z",
+        "is_superuser": false,
+        "email": "info@expert.com",
+        "surname": "Expert",
+        "firstname": "Lab",
+        "username": "lab_expert_ngk",
+        "country": "USA",
+        "office": "Expert Lab",
+        "introduction": "Lab Expert is a prominent researcher in power electronics, specializing in energy conversion and renewable energy systems. With a PhD in Electrical Engineering from [Prestigious University], Lab Expert has significantly advanced high-efficiency power management and grid integration of renewables.\n\nLab Expert has authored numerous papers, presented at international conferences, and collaborated with industry leaders to drive advancements in power systems. Currently, they lead projects on solid-state transformers and modular converters, fostering innovation and mentoring future engineers to contribute to a sustainable energy future.",
+        "phone": null,
+        "cv": "",
+        "profile_picture": "default/user.jpg",
+        "illustrations_picture": "default/user.jpg",
+        "is_active": true,
+        "is_staff": false,
+        "is_admin": false,
+        "theme": "light",
+        "role": "researcher",
+        "department": null,
+        "position": null,
+        "thesis": null,
+        "master_thesis": null,
+        "supervisor": null,
+        "start_on": null,
+        "experted_graduation": "2025-01-03",
+        "website": null,
+        "linkedin": null,
+        "twitter": null,
+        "personal_email": null,
+        "notifications": 0,
+        "messages": 0,
+        "project_status": null,
+        "funding_source": null,
+        "grant_amount": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$D0gmW5CmMqpB8TNQEUKLXV$TbDxYf4t1BQl0C0XrIzbs2VjwrWM+0+irogOJI6o1TI=",
+        "last_login": null,
+        "is_superuser": false,
+        "email": "siraja@rpi.edu",
+        "surname": "Siraj",
+        "firstname": "Ahmed Shahnewaz",
+        "username": "ahmed_shahnewaz_siraj_jco",
+        "country": "USA",
+        "office": "Expert Lab",
+        "introduction": "Ahmed Shahnewaz Siraj is a prominent researcher in power electronics, specializing in energy conversion and renewable energy systems. With a PhD in Electrical Engineering from [Prestigious University], Ahmed Shahnewaz Siraj has significantly advanced high-efficiency power management and grid integration of renewables.\n\nAhmed Shahnewaz Siraj has authored numerous papers, presented at international conferences, and collaborated with industry leaders to drive advancements in power systems. Currently, they lead projects on solid-state transformers and modular converters, fostering innovation and mentoring future engineers to contribute to a sustainable energy future.",
+        "phone": null,
+        "cv": "",
+        "profile_picture": "users/profile_pics/Siraj_Ahmed_Shahnewaz.JPG",
+        "illustrations_picture": "default/user.jpg",
+        "is_active": true,
+        "is_staff": false,
+        "is_admin": false,
+        "theme": "light",
+        "role": "phd",
+        "department": null,
+        "position": "phd",
+        "thesis": "",
+        "master_thesis": "",
+        "supervisor": null,
+        "start_on": null,
+        "experted_graduation": "2025-01-03",
+        "website": "https://expertlab.pythonanywhere.com/",
+        "linkedin": null,
+        "twitter": null,
+        "personal_email": null,
+        "notifications": 0,
+        "messages": 0,
+        "project_status": null,
+        "funding_source": null,
+        "grant_amount": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$p77h2yEVaBBi7b6DunIiHo$ko5QWIe3YVQ90BrhtyNwI53iE8MikoTHoevQEidgziM=",
+        "last_login": null,
+        "is_superuser": false,
+        "email": "khadkp@rpi.edu",
+        "surname": "Khadka",
+        "firstname": "Purushottam",
+        "username": "purushottam_khadka_eql",
+        "country": "USA",
+        "office": "Expert Lab",
+        "introduction": "Purushottam Khadka is a prominent researcher in power electronics, specializing in energy conversion and renewable energy systems. With a PhD in Electrical Engineering from [Prestigious University], Purushottam Khadka has significantly advanced high-efficiency power management and grid integration of renewables.\n\nPurushottam Khadka has authored numerous papers, presented at international conferences, and collaborated with industry leaders to drive advancements in power systems. Currently, they lead projects on solid-state transformers and modular converters, fostering innovation and mentoring future engineers to contribute to a sustainable energy future.",
+        "phone": null,
+        "cv": "",
+        "profile_picture": "users/profile_pics/Khadka_Purushottam.jpeg",
+        "illustrations_picture": "default/user.jpg",
+        "is_active": true,
+        "is_staff": false,
+        "is_admin": false,
+        "theme": "light",
+        "role": "phd",
+        "department": null,
+        "position": "phd",
+        "thesis": "",
+        "master_thesis": "",
+        "supervisor": null,
+        "start_on": null,
+        "experted_graduation": "2025-01-03",
+        "website": null,
+        "linkedin": null,
+        "twitter": null,
+        "personal_email": null,
+        "notifications": 0,
+        "messages": 0,
+        "project_status": null,
+        "funding_source": null,
+        "grant_amount": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 8,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$rXOVifzNZ0HPAczvDaoCsv$y1rawyqDfhmVCGrQRw+ggHE6qGoqpcGbsmFzBYMxU9Y=",
+        "last_login": null,
+        "is_superuser": false,
+        "email": "qiut2@rpi.edu",
+        "surname": "Qiu",
+        "firstname": "Tian",
+        "username": "tian_qiu_gyo",
+        "country": "USA",
+        "office": "Expert Lab",
+        "introduction": "Tian Qiu is a prominent researcher in power electronics, specializing in energy conversion and renewable energy systems. With a PhD in Electrical Engineering from [Prestigious University], Tian Qiu has significantly advanced high-efficiency power management and grid integration of renewables.\n\nTian Qiu has authored numerous papers, presented at international conferences, and collaborated with industry leaders to drive advancements in power systems. Currently, they lead projects on solid-state transformers and modular converters, fostering innovation and mentoring future engineers to contribute to a sustainable energy future.",
+        "phone": null,
+        "cv": "",
+        "profile_picture": "users/profile_pics/Qui_Tian.jpg",
+        "illustrations_picture": "default/user.jpg",
+        "is_active": true,
+        "is_staff": false,
+        "is_admin": false,
+        "theme": "light",
+        "role": "phd",
+        "department": null,
+        "position": "phd",
+        "thesis": "",
+        "master_thesis": "",
+        "supervisor": null,
+        "start_on": null,
+        "experted_graduation": "2025-01-03",
+        "website": null,
+        "linkedin": null,
+        "twitter": null,
+        "personal_email": null,
+        "notifications": 0,
+        "messages": 0,
+        "project_status": null,
+        "funding_source": null,
+        "grant_amount": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 9,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$JU8mCnT685FGi7ctNPFXKa$2hZKNNaBr0YOv7Uu1R6+YevK60c6D0UaRgyKbTkxB4M=",
+        "last_login": null,
+        "is_superuser": false,
+        "email": "ranad@rpi.edu",
+        "surname": "Rana",
+        "firstname": "Dilip",
+        "username": "dilip_rana_mzz",
+        "country": "USA",
+        "office": "Expert Lab",
+        "introduction": "Dilip Rana is a prominent researcher in power electronics, specializing in energy conversion and renewable energy systems. With a PhD in Electrical Engineering from [Prestigious University], Dilip Rana has significantly advanced high-efficiency power management and grid integration of renewables.\n\nDilip Rana has authored numerous papers, presented at international conferences, and collaborated with industry leaders to drive advancements in power systems. Currently, they lead projects on solid-state transformers and modular converters, fostering innovation and mentoring future engineers to contribute to a sustainable energy future.",
+        "phone": null,
+        "cv": "",
+        "profile_picture": "users/profile_pics/Rana_Dilip.jpeg",
+        "illustrations_picture": "default/user.jpg",
+        "is_active": true,
+        "is_staff": false,
+        "is_admin": false,
+        "theme": "light",
+        "role": "phd",
+        "department": null,
+        "position": "phd",
+        "thesis": "",
+        "master_thesis": "",
+        "supervisor": null,
+        "start_on": null,
+        "experted_graduation": "2025-01-03",
+        "website": null,
+        "linkedin": null,
+        "twitter": null,
+        "personal_email": null,
+        "notifications": 0,
+        "messages": 0,
+        "project_status": null,
+        "funding_source": null,
+        "grant_amount": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 10,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$pRIHgLoAAmrowlZK9lcvVw$mAl6hvvRxLt0H6SYEbpnfm79w4IcxDZfUOfN2nmJ7Do=",
+        "last_login": "2025-02-24T10:26:28.475Z",
+        "is_superuser": true,
+        "email": "zikpii@rpi.edu",
+        "surname": "Zikpi",
+        "firstname": "Israel",
+        "username": "israel_zikpi_itr",
+        "country": "Barbados",
+        "office": "Expert Lab",
+        "introduction": "Israel Zikpi is a prominent researcher in power electronics, specializing in energy conversion and renewable energy systems. With a PhD in Electrical Engineering from [Prestigious University], Israel Zikpi has significantly advanced high-efficiency power management and grid integration of renewables.\n\nIsrael Zikpi has authored numerous papers, presented at international conferences, and collaborated with industry leaders to drive advancements in power systems. Currently, they lead projects on solid-state transformers and modular converters, fostering innovation and mentoring future engineers to contribute to a sustainable energy future.",
+        "phone": "233551967503",
+        "cv": "users/cv/Power.pdf",
+        "profile_picture": "users/profile_pics/Zikpi_Israel.jpg",
+        "illustrations_picture": "users/illustrations_pics/safetyculture-electrical-emergency-response-plan__07423.jpg",
+        "is_active": true,
+        "is_staff": true,
+        "is_admin": true,
+        "theme": "light",
+        "role": "phd",
+        "department": null,
+        "position": "phd",
+        "thesis": "",
+        "master_thesis": "",
+        "supervisor": "None",
+        "start_on": "2025-01-01",
+        "experted_graduation": "2025-11-01",
+        "website": null,
+        "linkedin": null,
+        "twitter": null,
+        "personal_email": null,
+        "notifications": 0,
+        "messages": 0,
+        "project_status": null,
+        "funding_source": null,
+        "grant_amount": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 11,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$TuEAhE3aLtpgTIM5tjZe2D$jUFwxvr4DW29y32oNpiAhZv52UQ/gRTYJ5EMF6zAMRE=",
+        "last_login": null,
+        "is_superuser": false,
+        "email": "khans10@rpi.edu",
+        "surname": "Khan",
+        "firstname": "Shahabuddin",
+        "username": "shahabuddin_khan_pzk",
+        "country": "USA",
+        "office": "Expert Lab",
+        "introduction": "Shahabuddin Khan is a prominent researcher in power electronics, specializing in energy conversion and renewable energy systems. With a PhD in Electrical Engineering from [Prestigious University], Shahabuddin Khan has significantly advanced high-efficiency power management and grid integration of renewables.\n\nShahabuddin Khan has authored numerous papers, presented at international conferences, and collaborated with industry leaders to drive advancements in power systems. Currently, they lead projects on solid-state transformers and modular converters, fostering innovation and mentoring future engineers to contribute to a sustainable energy future.",
+        "phone": null,
+        "cv": "",
+        "profile_picture": "users/profile_pics/Khan_Shahabuddin.jpg",
+        "illustrations_picture": "default/user.jpg",
+        "is_active": true,
+        "is_staff": false,
+        "is_admin": false,
+        "theme": "light",
+        "role": "phd",
+        "department": null,
+        "position": "phd",
+        "thesis": "",
+        "master_thesis": "",
+        "supervisor": null,
+        "start_on": null,
+        "experted_graduation": "2025-01-03",
+        "website": null,
+        "linkedin": null,
+        "twitter": null,
+        "personal_email": null,
+        "notifications": 0,
+        "messages": 0,
+        "project_status": null,
+        "funding_source": null,
+        "grant_amount": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 12,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$qL8tx99aPawkF4fOfpsU4V$sSS08qNSnbWpTUzSRvi76zvB8H+qOrtWJFoq/EciZPo=",
+        "last_login": null,
+        "is_superuser": false,
+        "email": "shivds@rpi.edu",
+        "surname": "Shivdikar",
+        "firstname": "Saumil Chandrakant",
+        "username": "saumil_chandrakant_shivdikar_hhi",
+        "country": "USA",
+        "office": "Expert Lab",
+        "introduction": "Saumil Chandrakant Shivdikar is a prominent researcher in power electronics, specializing in energy conversion and renewable energy systems. With a PhD in Electrical Engineering from [Prestigious University], Saumil Chandrakant Shivdikar has significantly advanced high-efficiency power management and grid integration of renewables.\n\nSaumil Chandrakant Shivdikar has authored numerous papers, presented at international conferences, and collaborated with industry leaders to drive advancements in power systems. Currently, they lead projects on solid-state transformers and modular converters, fostering innovation and mentoring future engineers to contribute to a sustainable energy future.",
+        "phone": null,
+        "cv": "",
+        "profile_picture": "users/profile_pics/Shivdikar_Saumil_Chandrakant.jpg",
+        "illustrations_picture": "default/user.jpg",
+        "is_active": true,
+        "is_staff": false,
+        "is_admin": false,
+        "theme": "light",
+        "role": "master",
+        "department": null,
+        "position": "masters",
+        "thesis": "",
+        "master_thesis": "",
+        "supervisor": null,
+        "start_on": null,
+        "experted_graduation": "2025-01-03",
+        "website": null,
+        "linkedin": null,
+        "twitter": null,
+        "personal_email": null,
+        "notifications": 0,
+        "messages": 0,
+        "project_status": null,
+        "funding_source": null,
+        "grant_amount": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 13,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$utoXMIV76WkSGkPj0Rwr1Z$iod9PAuOp+yN3rr3rZx2L0zz4u18hkg8CsHD4f8i+kE=",
+        "last_login": null,
+        "is_superuser": false,
+        "email": "dasa7@rpi.edu",
+        "surname": "Das",
+        "firstname": "Annoy Kumar",
+        "username": "annoy_kumar_das_afy",
+        "country": "USA",
+        "office": "Expert Lab",
+        "introduction": "Annoy Kumar Das is a prominent researcher in power electronics, specializing in energy conversion and renewable energy systems. With a PhD in Electrical Engineering from [Prestigious University], Annoy Kumar Das has significantly advanced high-efficiency power management and grid integration of renewables.\n\nAnnoy Kumar Das has authored numerous papers, presented at international conferences, and collaborated with industry leaders to drive advancements in power systems. Currently, they lead projects on solid-state transformers and modular converters, fostering innovation and mentoring future engineers to contribute to a sustainable energy future.",
+        "phone": null,
+        "cv": "",
+        "profile_picture": "users/profile_pics/12055105_g3PU2mc.jpg",
+        "illustrations_picture": "default/user.jpg",
+        "is_active": true,
+        "is_staff": false,
+        "is_admin": false,
+        "theme": "light",
+        "role": "postdoc",
+        "department": null,
+        "position": "postdoc",
+        "thesis": "",
+        "master_thesis": "",
+        "supervisor": null,
+        "start_on": null,
+        "experted_graduation": "2025-01-03",
+        "website": null,
+        "linkedin": null,
+        "twitter": null,
+        "personal_email": null,
+        "notifications": 0,
+        "messages": 0,
+        "project_status": null,
+        "funding_source": null,
+        "grant_amount": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 14,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$WSuREa1ZxusG24xvmonRTB$2nrfZishySS787mcPsqr37xiH9pyK4WWBY8TWdOdOAw=",
+        "last_login": null,
+        "is_superuser": false,
+        "email": "liweiw@g.clemson.edu",
+        "surname": "Liwei",
+        "firstname": "Wang",
+        "username": "wang_liwei_xau",
+        "country": "USA",
+        "office": "Expert Lab",
+        "introduction": "Wang Liwei is a prominent researcher in power electronics, specializing in energy conversion and renewable energy systems. With a PhD in Electrical Engineering from [Prestigious University], Wang Liwei has significantly advanced high-efficiency power management and grid integration of renewables.\n\nWang Liwei has authored numerous papers, presented at international conferences, and collaborated with industry leaders to drive advancements in power systems. Currently, they lead projects on solid-state transformers and modular converters, fostering innovation and mentoring future engineers to contribute to a sustainable energy future.",
+        "phone": null,
+        "cv": "",
+        "profile_picture": "users/profile_pics/Liwei_Wang.jpeg",
+        "illustrations_picture": "default/user.jpg",
+        "is_active": true,
+        "is_staff": false,
+        "is_admin": false,
+        "theme": "light",
+        "role": "postdoc",
+        "department": null,
+        "position": "postdoc",
+        "thesis": "",
+        "master_thesis": "",
+        "supervisor": null,
+        "start_on": null,
+        "experted_graduation": "2025-01-03",
+        "website": null,
+        "linkedin": null,
+        "twitter": null,
+        "personal_email": null,
+        "notifications": 0,
+        "messages": 0,
+        "project_status": null,
+        "funding_source": null,
+        "grant_amount": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 15,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$xhDCYxgtJmeHnbFmxYcYdH$XhjSoFfNzolFrxAwoXpZJ9XAuq+VIv9Ke1moKpL2HLE=",
+        "last_login": null,
+        "is_superuser": false,
+        "email": "zhangz49@rpi.edu",
+        "surname": "Zheyu",
+        "firstname": "Zhang",
+        "username": "zhang_zheyu_kug",
+        "country": "USA",
+        "office": "JEC 7018, 110 8th St., Troy, NY 12180",
+        "introduction": "Zhang Zheyu is a prominent researcher in power electronics, specializing in energy conversion and renewable energy systems. With a PhD in Electrical Engineering from [Prestigious University], Zhang Zheyu has significantly advanced high-efficiency power management and grid integration of renewables.\n\nZhang Zheyu has authored numerous papers, presented at international conferences, and collaborated with industry leaders to drive advancements in power systems. Currently, they lead projects on solid-state transformers and modular converters, fostering innovation and mentoring future engineers to contribute to a sustainable energy future.",
+        "phone": null,
+        "cv": "",
+        "profile_picture": "users/profile_pics/Zheyu_Zhang.webp",
+        "illustrations_picture": "default/user.jpg",
+        "is_active": true,
+        "is_staff": false,
+        "is_admin": false,
+        "theme": "light",
+        "role": "principal",
+        "department": "Department of Electrical, Computer and Systems Engineering",
+        "position": "Assistant Professor, Department of Electrical and Computer Engineering",
+        "thesis": "",
+        "master_thesis": "",
+        "supervisor": null,
+        "start_on": null,
+        "experted_graduation": "2025-01-03",
+        "website": "https://scholar.google.com/citations?user=bnCMkX8AAAAJ&hl=en",
+        "linkedin": null,
+        "twitter": null,
+        "personal_email": null,
+        "notifications": 0,
+        "messages": 0,
+        "project_status": null,
+        "funding_source": null,
+        "grant_amount": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 16,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$kfbo07Jy96VNTpFHLPHoX9$mUp6q/e1xazX9IYumNiYX1hxb2i52rZtGOeGfFLQxDE=",
+        "last_login": null,
+        "is_superuser": false,
+        "email": "dehaoq@g.clemson.edu",
+        "surname": "Dehao",
+        "firstname": "Qin",
+        "username": "qin_dehao_kha",
+        "country": "USA",
+        "office": "Expert Lab",
+        "introduction": "Qin Dehao is a prominent researcher in power electronics, specializing in energy conversion and renewable energy systems. With a PhD in Electrical Engineering from [Prestigious University], Qin Dehao has significantly advanced high-efficiency power management and grid integration of renewables.\n\nQin Dehao has authored numerous papers, presented at international conferences, and collaborated with industry leaders to drive advancements in power systems. Currently, they lead projects on solid-state transformers and modular converters, fostering innovation and mentoring future engineers to contribute to a sustainable energy future.",
+        "phone": null,
+        "cv": "",
+        "profile_picture": "users/profile_pics/Dehao_Qin.png",
+        "illustrations_picture": "default/user.jpg",
+        "is_active": true,
+        "is_staff": false,
+        "is_admin": false,
+        "theme": "light",
+        "role": "phdalumni",
+        "department": null,
+        "position": null,
+        "thesis": "",
+        "master_thesis": "",
+        "supervisor": null,
+        "start_on": null,
+        "experted_graduation": "2025-01-03",
+        "website": null,
+        "linkedin": null,
+        "twitter": null,
+        "personal_email": null,
+        "notifications": 0,
+        "messages": 0,
+        "project_status": null,
+        "funding_source": null,
+        "grant_amount": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 17,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$TQIzIYoUDMPfgCHs7kCtk2$yt6XtAD1iFYQmoUBvFLLhMHHwmHBgQiSXr9f+CSvPwA=",
+        "last_login": "2025-01-27T14:35:25.886Z",
+        "is_superuser": false,
+        "email": "buckb@g.clemson.edu",
+        "surname": "Buck",
+        "firstname": "Brown",
+        "username": "brown_buck_xks",
+        "country": "USA",
+        "office": "Expert Lab",
+        "introduction": "Brown Buck is a prominent researcher in power electronics, specializing in energy conversion and renewable energy systems. With a PhD in Electrical Engineering from [Prestigious University], Brown Buck has significantly advanced high-efficiency power management and grid integration of renewables.\n\nBrown Buck has authored numerous papers, presented at international conferences, and collaborated with industry leaders to drive advancements in power systems. Currently, they lead projects on solid-state transformers and modular converters, fostering innovation and mentoring future engineers to contribute to a sustainable energy future.",
+        "phone": null,
+        "cv": "",
+        "profile_picture": "users/profile_pics/Buck_Brown.png",
+        "illustrations_picture": "default/user.jpg",
+        "is_active": true,
+        "is_staff": false,
+        "is_admin": false,
+        "theme": "light",
+        "role": "msalumni",
+        "department": null,
+        "position": null,
+        "thesis": "",
+        "master_thesis": "",
+        "supervisor": null,
+        "start_on": null,
+        "experted_graduation": "2025-01-03",
+        "website": null,
+        "linkedin": null,
+        "twitter": null,
+        "personal_email": null,
+        "notifications": 0,
+        "messages": 0,
+        "project_status": null,
+        "funding_source": null,
+        "grant_amount": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 18,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$JQfEh4TeBEHFYzlgIb3ZCg$epq6T8GUnFLO9DgWNTugEqrrgRnoN/ZUoNBN4w/lkAY=",
+        "last_login": null,
+        "is_superuser": false,
+        "email": "abcd@gmail.com",
+        "surname": "James",
+        "firstname": "Johns",
+        "username": "johns_james_quo",
+        "country": "USA",
+        "office": "Expert Lab",
+        "introduction": "Johns James is a prominent researcher in power electronics, specializing in energy conversion and renewable energy systems. With a PhD in Electrical Engineering from [Prestigious University], Johns James has significantly advanced high-efficiency power management and grid integration of renewables.\n\nJohns James has authored numerous papers, presented at international conferences, and collaborated with industry leaders to drive advancements in power systems. Currently, they lead projects on solid-state transformers and modular converters, fostering innovation and mentoring future engineers to contribute to a sustainable energy future.",
+        "phone": null,
+        "cv": "",
+        "profile_picture": "users/profile_pics/12055105.jpg",
+        "illustrations_picture": "default/user.jpg",
+        "is_active": true,
+        "is_staff": false,
+        "is_admin": false,
+        "theme": "light",
+        "role": "undergraduate",
+        "department": null,
+        "position": null,
+        "thesis": "",
+        "master_thesis": "",
+        "supervisor": null,
+        "start_on": null,
+        "experted_graduation": "2025-01-03",
+        "website": null,
+        "linkedin": null,
+        "twitter": null,
+        "personal_email": null,
+        "notifications": 0,
+        "messages": 0,
+        "project_status": null,
+        "funding_source": null,
+        "grant_amount": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.education",
+    "pk": 1,
+    "fields": {
+        "user": 10,
+        "degree": "Bachelor's Degree",
+        "start_date": "2019-08-01",
+        "end_date": "2023-10-01",
+        "program": "Electrical/Electronic Engineering",
+        "institution": "Kwame Nkrumah University of Science and Technology",
+        "GPA": "3.9/4",
+        "city": "Kumasi",
+        "country": "Ghana"
+    }
+},
+{
+    "model": "users.education",
+    "pk": 3,
+    "fields": {
+        "user": 10,
+        "degree": "Doctor of Philosophy",
+        "start_date": "2023-10-01",
+        "end_date": "2026-09-01",
+        "program": "Industrial Automations and Controls",
+        "institution": "University of Mines and Technology",
+        "GPA": "3.9/4",
+        "city": "Tarkwa",
+        "country": "Ghana"
+    }
+},
+{
+    "model": "users.education",
+    "pk": 4,
+    "fields": {
+        "user": 1,
+        "degree": "Master's Degree",
+        "start_date": "2025-02-01",
+        "end_date": "2028-01-01",
+        "program": "Computer Science",
+        "institution": "Vilistine University ",
+        "GPA": "3.9/4",
+        "city": "Vil City",
+        "country": "Techiman"
+    }
+}
+]

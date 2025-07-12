@@ -1,0 +1,95 @@
+{% include 'main/head.html' %}
+<style>
+    
+</style>
+<body>
+
+    <!-- PAGE LOADING
+    ================================================== -->
+    <div id="preloader"></div>
+
+    <!-- MAIN WRAPPER
+    ================================================== -->
+    <div class="main-wrapper " style="width: 100%;">
+
+        <!-- HEADER
+        ================================================== -->
+        {% include 'main/header.html' %}
+        
+        <div class=" px-3" style="width: 100%;display: block;">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>E<sup>x</sup> News</h2>
+                </div>
+
+                <div class="row mt-n1-9">
+                    {%if news%}
+                    {% for new in news %}
+                    <div class="col-md-6 col-lg-4 mt-1-9">
+                        <article class="card blog-card">
+                            <a href="/news/{{new.id}}">
+                                <div class="card-img"><img src="/media/{{new.featured_image_1}}" alt="..."></div>
+                            </a>
+                            <div class="card-body">
+                                <div class="d-block text-muted mb-2 small">
+                                    {{new.created_at}}
+                                </div>
+                                <h3><a href="/news/{{new.id}}">{{new.title}}</a></h3>
+                                <p>{{new.intro}}</p>
+                                <span class="read-more"><a href="/news/{{new.id}}">read more...</a></span>
+                            </div>
+                            <div class="card-footer">
+
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <div class="d-flex align-items-center">
+                                        <img src="/media/users/profile_pics/Zikpi_Israel.jpg" class="rounded-circle sm-avatar" alt="...">
+
+                                        <div class="ms-3">
+                                            <span class="small"><span class="font-weight-bold">By: </span>{{new.author}}</span>
+                                        </div>
+                                    </div>
+
+                                    <a href="#!">
+                                        <i class="ti-comment-alt me-2 align-middle"></i>{{new.number_of_times_read}}
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+                    </div>
+                    {%endfor %}
+                    {%endif %}
+                </div>
+
+                <div class="row mt-1-9 mt-lg-6">
+                    <div class="col-12">
+                        <div class="pagination text-small text-uppercase text-extra-dark-gray">
+                            <ul class="ps-0 mb-0">
+                                <li><a href="#!"><i class="fas fa-long-arrow-alt-left me-1 d-none d-sm-inline-block"></i> Prev</a></li>
+                                <li class="active"><a href="#!">1</a></li>
+                                <li><a href="#!">2</a></li>
+                                <li><a href="#!">3</a></li>
+                                <li><a href="#!">Next <i class="fas fa-long-arrow-alt-right ms-1 d-none d-sm-inline-block"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <!-- FOOTER
+        ================================================== -->
+        {% include 'main/footer.html' %}
+
+    </div>
+
+{% include 'main/end.html' %}
