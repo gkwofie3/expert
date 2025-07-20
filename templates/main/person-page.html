@@ -8,7 +8,7 @@
 
         <!-- MAIN WRAPPER
         ================================================== -->
-        <div class="main-wrapper" style="font-size: 14px;">
+        <div class="main-wrapper" >
 
             <!-- HEADER
             ================================================== -->
@@ -17,219 +17,196 @@
             <!--PERSON TOP DETAILS-->
             <div class="section" >
                 <div class="container-fluid bg-light rounded-3">
-                    <div class=team-single>
-                        <div class="row d-flex justify-content-center ">
-                            <div style="max-width: 200px !important;min-width: 180px !important; width: 15%;" class="">
-                                <div class=team-single-img><img alt="{{person.username}}" src="/media/{{person.profile_picture}}"></div>
-                            </div>
-                            <div class="" style="width: auto;">
-                                <div class="team-single-text">
-                                    <div class="">
-                                        <h5>{{person.firstname}} {{person.surname}}</h5>
-                                    </div>
-                                    <div class="title text-primary" >
-                                        {% if person.role == 'researcher' %}
-                                            Researcher
-                                        {% elif person.role == 'principal' %}
-                                            Principal
-                                        {% elif person.role == 'undergraduate' %}
-                                            Undergraduate
-                                        {% elif person.role == 'phd' %}
-                                            PhD Student
-                                        {% elif person.role == 'master' %}
-                                            Master's Student
-                                        {% elif person.role == 'postdoc' %}
-                                            Postdoc
-                                        {% elif person.role == 'phdalumni' %}
-                                            PhD Alumnus
-                                        {% elif person.role == 'msalumni' %}
-                                            Master's Alumnus
-                                        {% endif %}
-                                    </div>                                    
-                                    <div class="contact-info-section p-0 -0">
-                                        <ul class="list-style-1 mb-0 list-unstyled">
-                                            <li>
-                                                <p><i class="fas fa-envelope text-center"></i> <strong>Email: </strong> <a href="mailto:{{person.email}}">{{person.email}}</a></p>
-                                            </li>
-                                            <li>
-                                                <p><i class="fas fa-graduation-cap text-center"></i> <strong>Expected Graduation: </strong> <a href="mailto:{{person.email}}">{{person.experted_graduation|date:"Y"}}</a></p>
-                                            </li>
-                                            
-                                            <li>
-                                                <p>
-                                                    <i class="fas fa-file text-center"></i>
-                                                    <!-- <strong>Curriculum Vitae: </strong>  -->
-                                                    <a href="{{ person.cv_url }}" target="_blank">Download CV</a>
-                                                </p>
-                                            </li>
-                                        </ul>
-                                    </div>                                    
-                                </div>
-                            </div>
-                            
-                            
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <h5 class="text-primary">ABOUT</h5>
-                            <div class="col-md-6">
-                                <ul style="font-size: larger;">
-                                    <li ><b>Research Area:
-                                        <em>{{project.title}}</em></b>
-                                    </li>
-                                    <li style="list-style: none;">
-                                        <ul>
-                                            {% for desc in project.description %}
-                                            <li> {{ desc }}</li>
-                                            {% endfor %}
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6" style="max-height: 50vh;overflow-y:scroll;">
-                                {% if person.illustrations_picture and person.illustrations_picture != 'default/user.jpg' %}
-                                <div class=team-single-img><img alt="{{person.username}}" height="100%" src="/media/{{person.illustrations_picture}}"></div>
-                                {%else%}
-                                <p>No Illustration picture uploaded for this person.</p>
-                                {%endif%}
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            
-                           <div class="col-md-8 ">
-                                <h5 class="text-primary">Professional Experience:</h5>
-                                <ul>
-                                                              
-                                    {% if profession_experience %}                                     
-                                    {%for exp in profession_experience%}
-                                    <li >
-                                        <div class="row ">
-                                            <div class="col-md-12 justify-content-between">
-                                                <div class="row">
-                                                    <div class="col-9">
-                                                        <b style="font-size: 13px;">{{exp.title}} - {{exp.institution}} ({{exp.city}}, {{exp.country}})</b>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="team-single  ">
+                                <div class="row d-flex justify-content-center ">
+                                    <div class="col-12 bg-white px-4" style="max-width: 22cm; margin: 0 auto;">
+                                        <br>
+                                        <div class="row d-flex justify-content-center ">
+                                            <div style="max-width: 200px !important;min-width: 180px !important; width: 15%;" class="">
+                                                <div class=team-single-img><img alt="{{person.username}}" src="/media/{{person.profile_picture}}"></div>
+                                            </div>
+                                            <div class="" style="width: auto;">
+                                                <div class="team-single-text">
+                                                    <div class="">
+                                                        <h5>{{person.firstname}} {{person.surname}}</h5>
                                                     </div>
-                                                    <div class="col-3" style="justify-content: end; font-size: smaller;">
+                                                    <div class="title text-primary">
+                                                        {% if person.role == 'researcher' %}
+                                                        Researcher
+                                                        {% elif person.role == 'principal' %}
+                                                        Principal
+                                                        {% elif person.role == 'undergraduate' %}
+                                                        Undergraduate
+                                                        {% elif person.role == 'phd' %}
+                                                        PhD Student
+                                                        {% elif person.role == 'master' %}
+                                                        Master's Student
+                                                        {% elif person.role == 'postdoc' %}
+                                                        Postdoc
+                                                        {% elif person.role == 'phdalumni' %}
+                                                        PhD Alumnus
+                                                        {% elif person.role == 'msalumni' %}
+                                                        Master's Alumnus
+                                                        {% endif %}
+                                                    </div>
+                                                    <div class="contact-info-section p-0 -0">
+                                                        <ul class="list-style-1 mb-0 list-unstyled">
+                                                            <li>
+                                                                <p><i class="fas fa-envelope text-center"></i> <strong>Email: </strong> <a href="mailto:{{person.email}}">{{person.email}}</a></p>
+                                                            </li>
+                                                            <li>
+                                                                <p><i class="fas fa-graduation-cap text-center"></i> <strong>Expected Graduation: </strong> <a href="mailto:{{person.email}}">{{person.experted_graduation|date:"Y"}}</a></p>
+                                                            </li>
+                            
+                                                            <li>
+                                                                <p>
+                                                                    <i class="fas fa-file text-center"></i>
+                                                                    <a href="{{ person.cv_url }}" target="_blank">Download CV</a>
+                                                                </p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <h5 class="text-primary">ABOUT</h5>
+                                            <div class="col-md-6">
+                                                <ul style="font-size: larger;">
+                                                    <li><b>Research Area:
+                                                            <em>{{project.title}}</em></b>
+                                                    </li>
+                                                    <li style="list-style: none;">
+                                                        <ul>
+                                                            {% for desc in project.description %}
+                                                            <li> {{ desc }}</li>
+                                                            {% endfor %}
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6" style="max-height: 50vh;overflow-y:scroll;">
+                                                {% if person.illustrations_picture and person.illustrations_picture != 'default/user.jpg' %}
+                                                <div class=team-single-img><img alt="{{person.username}}" height="100%" src="/media/{{person.illustrations_picture}}"></div>
+                                                {%else%}
+                                                <p>No Illustration picture uploaded for this person.</p>
+                                                {%endif%}
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <!-- skills start -->
+                                            <div class="col-12">
+                                                <h5 class="text-primary">Skills:</h5>
+                                                <ul>
+                                                    {% if user_skills %}
+                                                    {%for skill_cats in skill_groups%}
+                                                    <li><strong>{{skill_cats}}: </strong>
+                                                        {% for skill in user_skills %}
+                                                        {% if skill.category == skill_cats %}
+                                                        {{ skill.name }}
+                                                        {% if not forloop.last %}, {% endif %}
+                                                        {% endif %}
+                                                        {% endfor %}
+                                                    </li>
+                                                    {% endfor %}
+                            
+                                                    {% else %}
+                                                    <li class="text-muted">No skills added for this person.</li>
+                                                    {% endif %}
+                                                </ul>
+                            
+                                            </div>
+                                            <!-- Skills End -->
+                                             <!-- Professional Experience start -->
+                                            <div class="col-12 ">
+                                                <h5 class="text-primary">Professional Experience:</h5>
+                                                <ul>
+                            
+                                                    {% if profession_experience %}
+                                                    {%for exp in profession_experience%}
+                                                    <li>
+                                                        <!-- Yatri Motorcycles | Kathmandu, Nepal | Embedded Hardware Engineer | Jan 2022- Dec 2023 -->
+                                                        {{exp.institution}} | {{exp.city}}, {{exp.country}} | {{exp.title}} 
                                                         {% if exp.show_month%}
                                                         {{ exp.start_date|date:"M.Y"|capfirst }} - {{ exp.end_date|date:"M.Y"|capfirst }}
                                                         {%else%}
                                                         {{ exp.start_date|date:"Y"|capfirst }} - {{ exp.end_date|date:"Y"|capfirst }}
                                                         {%endif%}
-                                                    </div>
-                                                </div>
-                                                
-                                            </div>
-                                            <div class="col-12 my-0 py-0">
-                                                <ul>
-                                                    {%for item in exp.description %}
-                                                    <li>{{item}}</li>
+                                                        
+                                                    </li> <br>
                                                     {%endfor%}
+                                                    {%else%}
+                                                    <li>No Professional Experience has been added for this person</li>
+                                                    {%endif%}
                                                 </ul>
-                                            </div>
-                                        </div>                                    
-                                    </li> <br>
-                                    {%endfor%}                                     
-                                    {%else%}
-                                    <li>No Professional Experience has been added for this person</li>
-                                    {%endif%}
-                                </ul>      
-                            </div>
+                                            </div>                            
+                                            <!-- Professional Experience Ends -->
+                                            <hr>
+                                            <!-- Education Starts -->
+                                            <div class="col-12 ">
+                                                <h5 class="text-primary">Education:</h5>
                             
-                            <div class="col-md-4">
-                                <h5 class="text-primary">Skills:</h5>
-                                <ul>
-                                    {% if user_skills %}
-                                        {%for skill_cats in skill_groups%}
-                                        <li ><strong>{{skill_cats}}: </strong> 
-                                            {% for skill in user_skills %}
-                                                {% if skill.category == skill_cats %}
-                                                    {{ skill.name }}
-                                                    {% if not forloop.last %}, {% endif %}
-                                                {% endif %}
-                                            {% endfor %}
-                                        </li>
-                                        {% endfor %}                                       
-                                       
-                                    {% else %}
-                                    <li class="text-muted">No skills added for this person.</li>
-                                    {% endif %}
-                                </ul>
-                                
-                            </div>
-                            <hr>
-                            <div class="col-md-8 ">
-                                <h5 class="text-primary">Education:</h5>
-
-                                <ul>
-                                                              
-                                    {% if educations %}                                     
-                                    {%for edu in educations%}
-                                    <li >
-                                        <div class="row ">
-                                            <div class="col-md-12 justify-content-between">
-                                                <div class="row">
-                                                    <div class="col-9">
-                                                        <b style="font-size: 13px;">{{edu.degree}}, {{edu.program}}</b>
-                                                    </div>
-                                                    <div class="col-3" style="justify-content: end; font-size: smaller;">
+                                                <ul>
+                            
+                                                    {% if educations %}
+                                                    {%for edu in educations%}
+                                                    <li>
+                                                        {{edu.institution}} {{edu.city}}, {{edu.country}}| 
+                                                        {{edu.degree}}  {{edu.program}} | 
+                                                        
                                                         {% if edu.show_month%}
                                                         {{ edu.start_date|date:"M.Y"|capfirst }} - {{ edu.end_date|date:"M.Y"|capfirst }}
                                                         {%else%}
                                                         {{ edu.start_date|date:"Y"|capfirst }} - {{ edu.end_date|date:"Y"|capfirst }}
                                                         {%endif%}
-                                                    </div>
-                                                </div>
-                                                
-                                            </div>
-                                            <div class="col-12 my-0 py-0">
-                                                <ul>
-                                                    <li>{{edu.institution}} - {{edu.city}}, {{edu.country}}</li>
+                                                        
+                                                    </li> <br>
+                                                    {%endfor%}
+                                                    {%else%}
+                                                    <li>No Education history has been added for this person</li>
+                                                    {%endif%}
                                                 </ul>
                                             </div>
-                                        </div>                                    
-                                    </li> <br>
-                                    {%endfor%}                                     
-                                    {%else%}
-                                    <li>No Education history has been added for this person</li>
-                                    {%endif%}
-                                </ul>
-                            </div>
-                            <div class="col-md-4">
-                                <h5 class="text-primary">Awards:</h5>
-                                <ul>
-                                    {% if awards %}
-                                    {%for award in awards%}
-                                    <li  title="{{award.description}}">{{award.title}}</li>
-                                    {%endfor%}
-                                    {% else%}
-                                        <li>No awards added for this person</li>
-                                    {%endif%}
-                                </ul>
-                            </div>
-                            
-                            <hr>
-                            
-                        
-                            <div class="col-md-12">
-                                <h5 class="text-primary">Selected Publications/Patents/Demos:</h5>
-                                <ul>
-                                    {%if publications%}
-                                    {%for pub in publications %}
-                                        {%if pub.visibility%}
-                                        <li style="list-style:square;" title="{{ pub.abstract }}">
-                                            {{ pub.title }} 
-                                            <a href="{{ pub.link }}" class="text-primary">Link</a>, <a href="{{ pub.pdf }}" class="text-primary">Paper</a>
-                                        </li>
-                                        {%endif%}
-                                    {%endfor%}
-                                    {%else%}
-                                    <li>No publication has been selected for viewing</li>
-                                    {%endif%}
-                                </ul>
+                                            <!-- Education Ends -->
+                                            <div class="col-12">
+                                                <h5 class="text-primary">Awards:</h5>
+                                                <ul>
+                                                    {% if awards %}
+                                                    {%for award in awards%}
+                                                    <li title="{{award.description}}">{{award.title}}</li>
+                                                    {%endfor%}
+                                                    {% else%}
+                                                    <li>No awards added for this person</li>
+                                                    {%endif%}
+                                                </ul>
+                                            </div>
+                                            <hr>                            
+                                            <div class="col-12">
+                                                <h5 class="text-primary">Selected Publications/Patents/Demos:</h5>
+                                                <ul>
+                                                    {%if publications%}
+                                                    {%for pub in publications %}
+                                                    {%if pub.visibility%}
+                                                    <li style="list-style:square;" title="{{ pub.abstract }}">
+                                                        {{ pub.title }}
+                                                        <a href="{{ pub.link }}" class="text-primary">Link</a>, <a href="{{ pub.pdf }}" class="text-primary">Paper</a>
+                                                    </li>
+                                                    {%endif%}
+                                                    {%endfor%}
+                                                    {%else%}
+                                                    <li>No publication has been selected for viewing</li>
+                                                    {%endif%}
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
             </div>

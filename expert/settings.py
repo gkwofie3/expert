@@ -27,9 +27,8 @@ SECRET_KEY = 'django-insecure-s_!o*z*#jnms*0l-)p1-hv%a)4a=&r90wnr*f-s*1)8+t4(hbr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['expertlab.pythonanywhere.com']
-ALLOWED_HOSTS = ['127.0.0.1']
-
+ALLOWED_HOSTS = ['expertlab.pythonanywhere.com','127.0.0.1']
+LOGIN_URL = '/users/login/'
 
 # Application definition
 
