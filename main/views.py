@@ -77,7 +77,7 @@ def person(request,username):
             'educations': Education.objects.filter(user=person) or None,
             'research_interests': ResearchInterest.objects.filter(user=person) or None,
             'project': ResearchProject.objects.filter(user=person).first() if ResearchProject.objects.filter(user=person).exists() else None,
-            'publications': Publication.objects.filter(user=person) or None,
+            'publications': userpubs.objects.filter(user=person) or None,
             'profession_experience': ProfessionalExperience.objects.filter(user=person) or None,
             'academic_achievements': AcademicAchievement.objects.filter(user=person) or None,
             'awards': Award.objects.filter(user=person) or None,
