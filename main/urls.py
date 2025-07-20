@@ -13,6 +13,7 @@ urlpatterns=[
     path('news/', views.news, name='news'),
     path('news/<int:id>/', views.news_read, name='news'),
     path('publications/', views.publications, name='publications'),
+    path('publications/<int:year>/', views.publications_year, name='publications_year'),
     path('teaching/', views.teaching, name='teaching'),
     path('highlights/', views.highlights, name='highlights'),
     path('database/', views.database, name='database'),

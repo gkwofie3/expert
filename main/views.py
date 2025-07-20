@@ -21,7 +21,7 @@ from django.core.validators import validate_email
 from django.core.exceptions import ValidationError
 from django.db.models import Q
 from .models import Slider,Lab,Slider,Sponsor,Research,New,Publication,Teaching,Database,NewsComment
-from users.models import Publication,User,Award,ResearchInterest,ResearchProject,Education,AcademicAchievement,ProfessionalExperience,AdminNote,Skill
+from users.models import Publication as userpubs,User,Award,ResearchInterest,ResearchProject,Education,AcademicAchievement,ProfessionalExperience,AdminNote,Skill
 
 from django.utils.timezone import now
 
@@ -168,6 +168,15 @@ def publications(request):
     context=this.refreshDB()
     context['page_title']='Publications || Expert'
     return render(request, 'main/publications.html',context)
+def publications_year(request,year):
+    context=None
+    context=this.refreshDB()
+    pubby=Publication.objects.filter(publication_date__year=year)
+    context['pubby']=pubby
+    context['year']=year
+
+    context['page_title']='Publications || Expert'
+    return render(request, 'main/pubby.html',context)
 
 def teaching(request):
     return render(request, 'teaching.html')

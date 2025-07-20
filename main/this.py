@@ -12,7 +12,7 @@ def publication_view():
     # Organize publications by year
     publications_by_year = defaultdict(list)
     for pub in publications:
-        year = pub.publication_date.year  # Extract year from publication_date
+        year = pub.publication_date.year
         publications_by_year[year].append(pub)
     # Convert to a normal dictionary and sort by year (newest first)
     publications_by_year = dict(sorted(publications_by_year.items(), reverse=True))    

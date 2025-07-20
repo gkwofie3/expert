@@ -142,8 +142,6 @@ class Publication(models.Model):
     pdf = models.FileField(upload_to='publications/', blank=True, null=True)
     link=models.URLField(blank=True, null=True)
     
-
-
 class Teaching(models.Model):
     course_name = models.CharField(max_length=255)
     instructor = models.CharField(max_length=225)
