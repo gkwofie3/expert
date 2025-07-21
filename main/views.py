@@ -11,7 +11,7 @@ import random
 import string
 from io import BytesIO
 import re
-import os
+import os,pprint
 from collections import defaultdict
 from django.conf import settings
 from django.shortcuts import get_object_or_404
@@ -166,6 +166,7 @@ def news_read(request,id):
 def publications(request):
     context=None
     context=this.refreshDB()
+    pprint.pprint(context['publications'])
     context['page_title']='Publications || Expert'
     return render(request, 'main/publications.html',context)
 def publications_year(request,year):

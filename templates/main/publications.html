@@ -1,5 +1,20 @@
 {% include 'main/head.html' %}
+<style>
+    /* Initially hide items beyond the first 4 */
+    .hidden-initially {
+        display: none;
+    }
 
+    /* Add transition for smooth icon rotation */
+    .toggle-publications i {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    /* Rotate icon when content is expanded */
+    .toggle-publications.expanded i { /* Using .expanded class added by JS */
+        transform: rotate(180deg);
+    }
+</style>
 <body>
 
     <!-- PAGE LOADING
@@ -30,18 +45,39 @@
                     </div>
                     
                     <div class="col-sm-12">
+                        
                         {% if publications %}
                             {% for year, publication in publications.items %}
-                                <h5 class="text-primary">{{ year }}</h5>
+                               <div class="d-flex justify-content-between">
+                                    <h5 class="text-primary"><a href="/publications/{{year}}/">{{ year }}</a>
+                                    
+                                    </h5>
+                                    <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#id_{{year}}" aria-expanded="false" aria-controls="id_{{year}}">
+                                        View  More
+                                    </button>
+                               </div>
                                 <hr>
-                                <ul>
-                                    {% for pub in publication %}
+                                <ul id="ul-{{year}}">
+                                    {% for pub in publication|slice:":2" %}
                                         <li style="list-style:square;" title="{{ pub.abstract }}">
                                             {{ pub.title }} 
                                             <a class="text-primary" href="{{ pub.link }}">Link</a>, <a class="text-primary"  href="{{ pub.pdf }}">Paper</a>
                                         </li>
                                         <br>
                                     {% endfor %}
+                                                                           
+                                        
+                                      <div class="collapse" id="id_{{year}}">
+                                        <div class="card card-body" style="border: none !important;">
+                                            {% for pub in publication|slice:"2:" %}
+                                                <li style="list-style:square;" title="{{ pub.abstract }}">
+                                                    {{ pub.title }} 
+                                                    <a class="text-primary" href="{{ pub.link }}">Link</a>, <a class="text-primary"  href="{{ pub.pdf }}">Paper</a>
+                                                </li>
+                                                <br>
+                                            {% endfor %}
+                                        </div>
+                                      </div>
                                 </ul>
                             {% endfor %}
                         {% else %}
@@ -57,5 +93,5 @@
         {% include 'main/footer.html' %}
 
     </div>
-
+    
 {% include 'main/end.html' %}
